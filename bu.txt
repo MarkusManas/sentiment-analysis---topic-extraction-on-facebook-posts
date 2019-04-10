@@ -1,0 +1,47 @@
+'''
+	with open('somefile.txt', 'w') as the_file:
+		the_file.write(postDate)
+		the_file.write('\n')
+		the_file.write(postID)
+		the_file.write('\n')
+		the_file.write(postAuthor)
+		the_file.write('\n')
+		the_file.write(postText)
+'''
+test2
+	#get text of post
+		#get div that contains the text
+	postText = soup.find('div',{"class":"story_body_container"})
+	postText = postText.find('div',{"class": "_5rgt _5nk5"})
+	
+	postTextPs = postText.findAll('p')
+	postText = ''
+	for element in postTextPs:
+		postText += '\n' + ''.join(element.findAll(text = True))
+test3
+
+	#get date of post
+	postDate = soup.find('abbr').text
+	#post id
+	postID = re.findall("(?<=story_fbid\=)\d+", link)[0]
+	postAuthor = soup.find('strong').text
+	#get timestamp
+	curr_time = calendar.timegm(time.gmtime())
+	postDateTS = ''
+	postDate = str(postDate)
+	if "mins" in postDate:
+		minsPassed = re.match('\d+',postDate).group()
+		secondsPassed = 60 * int(minsPassed)
+		postDateTS = curr_time - secondsPassed
+		postDate = time.strftime("%B %d at %I:%M %p", time.gmtime(postDateTS))
+	elif "hrs" in postDate:
+		hrsPassed = re.match('\d+', postDate).group()
+		secondsPassed = 60 * 60 * int(hrsPassed)
+		postDateTS = curr_time - secondsPassed
+		postDate = time.strftime("%B %d at %I:%M %p", time.gmtime(postDateTS))
+	elif "yesterday" in postDate:
+		postDateTS = curr_time - (60*60*24)
+		yesterdayTime = postDate.replace("Yesterday ", "")
+		postDate = time.strftime("%B %d", time.gmtime(postDateTS))
+		postDate += yesterdayTime
+	
