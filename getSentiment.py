@@ -7,6 +7,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
+from sklearn.preprocessing import LabelEncoder
 
 
 def splitTextBySentiment():
@@ -48,33 +50,34 @@ dataLabels = []
 
 positive = open("postest1.txt", "r", encoding="utf-8")
 negative = open("negative.txt", "r", encoding="utf-8")
+inquiry = open("inquiry.txt", "r", encoding="utf-8")
 for line in positive:
     data.append(line.rstrip())
     dataLabels.append('pos')
 for line in negative:
     data.append(line.rstrip())
     dataLabels.append('neg')
+for line in inquiry:
+    data.append(line.rstrip())
+    dataLabels.append('inq')
 
-vectorizer = CountVectorizer(analyzer='word', lowercase=False)
-features = vectorizer.fit_transform(data)
-features_nd = features.toarray()  # for easy usage
+vectorizer = CountVectorizer(analyzer='word',tokenizer=tokenize, lowercase=False)
+encoder = LabelEncoder()
+x = vectorizer.fit_transform(data)
+y = encoder.fit_transform(dataLabels)
+X_train, X_test, y_train, y_test = train_test_split(x, y, train_size=0.80, random_state=84230)
 
-X_train, X_test, y_train, y_test = train_test_split(
-        features_nd,
-        dataLabels,
-        train_size=0.80,
-        random_state=1234)
+mnb = MultinomialNB()
+mnb.fit(X_train,y_train)
+y_pred = mnb.predict(X_test)
+y_predicted_labels = encoder.inverse_transform(y_pred)
+y_test_actual = encoder.inverse_transform(y_test)
+x_test_maps = vectorizer.inverse_transform(X_train)
 
-log_model = LogisticRegression()
-log_model = log_model.fit(X=X_train, y=y_train)
-y_pred = log_model.predict(X_test)
-
-j = random.randint(0, len(X_test)-7)
-for i in range(j, j+7):
-    print(y_pred[0])
-    ind = features_nd.tolist().index(X_test[i].tolist())
-    print(data[ind].strip())
-
+predictFile = open("predictions.txt", "w", encoding="utf-8")
+for i in range(len(y_predicted_labels)):
+    predictFile.write(str(y_predicted_labels[i]) + " - " + str(y_test_actual[i]) + str(x_test_maps[i]) + "\n")
 print(accuracy_score(y_test, y_pred))
+predictFile.close()
 
 # print(posSet)

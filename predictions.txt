@@ -1,0 +1,515 @@
+inq - neg['storage' 'kung' 'minsan' 'kaso' 'ernesto' 'bernardo' 'pagkakaisa'
+ 'unahan' 'baga']
+pos - neg['walang' 'kung' 'paano' 'init']
+pos - pos['love' 'bless' 'steps' 'taken']
+pos - pos['good' 'health' 'pres' 'duterte' 'wonderful' 'birthday' 'rodrigo'
+ 'wishing' 'governance']
+pos - pos['brain' 'chas' 'vidanes' 'functioning']
+pos - inq['love' 'cebu' 'mango' 'sweet']
+pos - neg['good' 'protect' 'health' 'mannypiñol' 'getting' 'thank' 'finally'
+ 'continue' 'cagayan' 'ating' 'attention' 'mahal' 'pangulo']
+pos - neg['hope' 'purchase' 'like' 'money' 'affordable' 'mango' 'rich' 'afford'
+ 'passed' 'wasn' 'vendor' 'thata' 'insane' 'taxpayer' 'sounds']
+neg - neg['farmers' 'mannypiñol' 'help' 'solar' 'thank' 'project' 'avail' 'powered'
+ 'group' 'submit' 'proposal' 'dole' 'accredited' 'upland' 'leyte'
+ 'irrgation']
+neg - pos['expenses' 'atin' 'tubig' 'magiging' 'brod' 'parang' 'maintenance' 'nyan'
+ 'napakamahal' 'ryan' 'carro' 'fuego' 'equipt' 'operating' 'gold']
+neg - pos['love' 'manny' 'galing' 'kudos']
+neg - pos['basta' 'kuguihan']
+pos - pos['coconut' 'good' 'farmers' 'manny' 'need' 'happening' 'sana' 'like'
+ 'product' 'makarating' 'main' 'problem' 'export' 'upgrades' 'facility'
+ 'kitaan' 'hangang']
+pos - pos['palm' 'government' 'walang' 'farmer' 'nman' 'mura' 'magsasaka' 'kopra'
+ 'kong' 'bakit' 'tama' 'nating' 'baba' 'results' 'iimport' 'gaya' 'pano'
+ 'gaganahan' 'sagana' 'kababayan' 'kokopra' 'pagmamahal']
+neg - pos['kaya' 'lang' 'walang' 'poor' 'like' 'pero' 'gobyerno' 'magsasaka' 'true'
+ 'thats' 'thing' 'tulong' 'gawin' 'news' 'nilang' 'puro' 'anti' 'media'
+ 'fake' 'pekeng' 'accomplishment' 'tutuong' 'press' 'released' 'kayang'
+ 'ipakita' 'social' 'scammer']
+neg - neg[]
+neg - neg['seen' 'countries' 'europe' 'germany' 'western' 'neighboring']
+pos - inq['good' 'thats' 'idea' 'elevated' 'floods']
+pos - neg['price' 'cruz' 'pesos' 'ganun' 'ferdinand' 'till']
+inq - pos['agree' 'tayo' 'follow' 'kahit' 'alvin' 'abitria' 'competitive'
+ 'southeast' 'asia' 'kulelat' 'singapore']
+neg - neg['supply' 'demand' 'problem' 'competition']
+neg - neg['coconut' 'price' 'north' 'cotabato' 'need' 'farmer' 'small' 'market'
+ 'farm' 'problem' 'effort' 'voice' 'bearing' 'scale' 'hopping' 'amplify'
+ 'colorful' 'arakan' 'starting' 'nuts']
+neg - neg['mannypiñol' 'solar' 'power' 'avail' 'irrigation' 'members' 'ilang'
+ 'kada' 'grupo']
+neg - neg['thank' 'tess']
+neg - neg['para' 'presyo' 'taga' 'sana' 'sobrang' 'walang' 'nman' 'mula' 'nila'
+ 'dahil' 'bigyan' 'magsasaka' 'kailangan' 'gastos' 'mahirap' 'paano'
+ 'pang' 'middle' 'yumayaman' 'tpos' 'admin' 'baba' 'mahihirap' 'kuha'
+ 'kulang' 'lalong' 'pansin' 'mayaman' 'sakahan' 'pamahala' 'grabi'
+ 'producto' 'umuutang' 'kadalasan' 'salat' 'maihain' 'hapag' 'kainan'
+ 'pambayad' 'napag' 'utangan' 'plesss' 'patulong' 'durusa']
+pos - pos['kaya' 'invest' 'govt' 'naman' 'look' 'pala' 'kayang' 'denz' 'ortiz'
+ 'brisenio' 'leandro' 'leviste']
+neg - inq['excellent']
+pos - pos['mannypiñol' 'help' 'walang' 'farmer' 'kasi' 'pero' 'kung' 'talaga'
+ 'available' 'know' 'bago' 'successful' 'area' 'trying' 'water' 'yung'
+ 'nasa' 'tubig' 'makarating' 'wala' 'lahat' 'having' 'technology' 'paano'
+ 'number' 'hirap' 'struggling' 'associations' 'labas' 'bureaucratic'
+ 'hoopla' 'organizations' 'coops' 'mountainous' 'kept' 'requirement']
+pos - pos['meron' 'pinakurat']
+neg - neg['nice']
+pos - pos['kaya' 'farmers' 'para' 'government' 'lang' 'pero' 'talaga' 'dahil'
+ 'piñol' 'sipag' 'maka' 'appreciate' 'lahat' 'madali' 'effort' 'ponga'
+ 'garzon' 'makikita' 'hndi' 'magtatagumpay' 'anti' 'tong' 'ganan' 'isip']
+inq - neg['pesos' 'kilo' 'amin' 'fiel']
+neg - neg['hope' 'protect' 'farmers' 'supply' 'storage' 'manipulate' 'small'
+ 'build' 'facilities' 'increase' 'prices' 'produce' 'country' 'built'
+ 'consumers' 'facility' 'msmes' 'cartels' 'decrease']
+inq - neg['areas' 'budget' 'malaki' 'forest' 'agri' 'tremendous' 'impact'
+ 'conservation' 'especially' 'buffer' 'zones' 'partnership' 'denr'
+ 'provide' 'alternative' 'livelihood' 'communities' 'alam']
+pos - pos['rene' 'pamintuan' 'right' 'thing' 'secretary' 'said' 'ground' 'bong'
+ 'going' 'week' 'exasperated' 'contagious' 'shared' 'exaspiration']
+neg - neg['lang' 'presyo' 'bumaba' 'naman' 'wala' 'cguro' 'media' 'mileage'
+ 'papogi' 'points' 'mabuting' 'resulta' 'halip' 'kopras']
+pos - pos['corrupt' 'agri' 'solution' 'problem' 'officials' 'blood' 'magbubongdugo']
+pos - neg['save' 'like' 'water' 'waste' 'flooding' 'rains' 'pours' 'pouring']
+neg - neg['solve' 'crisis' 'water' 'youtube' 'https' 'simple' 'solutions'
+ 'consistently' 'watch' 'hmkgn' 'nbgk' 'list' 'plomzfbfohu' 'sslbem'
+ 'wgftcwmuqaewedc' 'index']
+neg - inq['bless' 'thanks' 'agriculture' 'israel' 'gabot' 'observations' 'tribe'
+ 'appreciate' 'model']
+neg - neg['kaya' 'solar' 'natin' 'power' 'blessings' 'plant' 'energy' 'biggest'
+ 'came' 'makes' 'sense' 'morocco']
+neg - pos['tana' 'chismis' 'radaw']
+neg - neg['coconut' 'juice' 'cost' 'compared' 'considering' 'preparation']
+pos - pos['coco' 'virgin' 'organic' 'mahal' 'grocery' 'pede' 'kasing' 'lotion']
+pos - pos['expensive' 'cost' 'problem' 'experience' 'russia' 'mango' 'sending'
+ 'delivery']
+pos - pos['like' 'talaga' 'recently' 'example' 'correct' 'company' 'julces'
+ 'tajale' 'tires' 'tractors' 'newly' 'formed' 'tire' 'featured']
+neg - inq['time' 'supply' 'areas' 'farming' 'mangoes' 'guimaras' 'dearth'
+ 'corporate' 'compact' 'similarly' 'replicable']
+pos - neg['tekla' 'past' 'admin' 'isipin' 'troll' 'unti' 'nalalaman' 'kabulastugan'
+ 'abnoy']
+pos - pos['kasi' 'alisin' 'middleman' 'switik']
+neg - inq['hopeful' 'anjo' 'nicholas' 'patient']
+neg - pos['poor' 'governance' 'lacks' 'bohol']
+pos - pos['farmers' 'listen' 'xxxx']
+neg - pos['public' 'economic' 'saboteurs' 'hang']
+neg - neg['good' 'govt' 'finally' 'common' 'sense']
+pos - pos['good' 'model' 'hijo' 'circumspect' 'words' 'respectful' 'young']
+pos - pos['power' 'pwede' 'secretary' 'monolithic' 'dome' 'house']
+pos - pos['good' 'manny' 'build' 'like' 'country' 'kudos' 'idol' 'makes' 'sense'
+ 'real']
+pos - neg['coop' 'sana' 'walang' 'control' 'sector' 'minsan' 'maabuse'
+ 'mapanamantala' 'ipinagkaiba' 'private']
+neg - pos['live' 'grabe' 'long' 'president' 'nato' 'pisting' 'yawa' 'nano']
+pos - neg['sell']
+pos - pos['praying' 'success']
+neg - neg['manny' 'thanks' 'sure' 'philippines' 'piñol' 'water' 'having' 'short'
+ 'advance' 'nino' 'surrounded' 'figure']
+neg - neg['salamat' 'mannypiñol' 'sana' 'bayan' 'ulan' 'namin' 'umaasa' 'solar'
+ 'dahil' 'doon' 'irrigation' 'brgy' 'kami' 'magkaroon' 'mapansin'
+ 'mayroon' 'malawak' 'sakahan' 'dugong' 'quimloong' 'bucay' 'abra'
+ 'cropping']
+neg - pos['endeavor']
+neg - neg['coconut' 'boss']
+pos - pos['pesos' 'kilo' 'tama' 'naka' 'mark' 'arman' 'aquino' 'benta']
+neg - neg['philippine' 'fruits' 'sold' 'iron' 'curtain']
+pos - pos['bless' 'manny' 'philippines']
+pos - pos['pinol' 'thank' 'free' 'morons' 'surrendering' 'idiots']
+neg - inq['agricultural' 'revolution']
+pos - pos['farmers' 'para' 'lang' 'ulan' 'gloria' 'segaya' 'dapat' 'naman' 'ganun'
+ 'pati' 'lahat' 'implementation' 'gawin' 'address' 'gift' 'sayang'
+ 'schools' 'matuto' 'bata' 'heaven' 'tanging' 'hurdle' 'dengue' 'mosquito'
+ 'borne' 'diseases']
+pos - inq['bless' 'congratulations' 'path']
+pos - pos['farmers' 'problema' 'solusyon' 'produkto' 'problems' 'basta' 'saggy'
+ 'bonifacio' 'ikaw' 'maalam' 'presyohanay' 'lague' 'gipanganak' 'datu']
+inq - pos['coconut' 'good' 'mannypiñol' 'sana' 'farmer' 'problem' 'luck' 'saludo'
+ 'sayo' 'maayos' 'ninyo' 'madaling' 'panahon']
+pos - pos['amazed' 'secret']
+pos - pos['fucking' 'crabs' 'cook']
+pos - pos['good' 'manny' 'piñol' 'secretary' 'yeeey']
+pos - pos['talhal' 'painitin']
+neg - pos['salamat' 'presyo' 'jose' 'taga' 'buyers' 'pero' 'kung' 'pesos' 'dahil'
+ 'halaga' 'wala' 'bang' 'buyer' 'kuha' 'rodlfo' 'gabor' 'hong' 'halong'
+ 'kwento' 'kuhaan' 'maari' 'malaman' 'kmukuha' 'ganung' 'kakaani' 'kming'
+ 'cbuyas' 'tinaraan' 'week' 'tinakbuhan' 'bumagsak' 'ipapalipat']
+neg - neg['alex' 'bermudez']
+neg - neg['copra' 'sobrang' 'ginagawa' 'nlang' 'samar' 'lumber' 'nyog' 'baba']
+neg - neg['local' 'include' 'mechanical' 'attachments' 'working' 'fabricators']
+neg - inq['lang' 'unused' 'better' 'agriculture' 'longer' 'yung' 'iand' 'left'
+ 'construct' 'rainwater' 'collecting' 'tank' 'pdaf' 'senator'
+ 'congressman' 'ninanakaw' 'gamitin' 'finance']
+pos - neg['news' 'fake']
+pos - pos['kaya' 'hindi' 'friends' 'willing' 'akong' 'lang' 'pong' 'like' 'kung'
+ 'available' 'future' 'page' 'comment' 'long' 'trees' 'aware' 'dahil'
+ 'kanilang' 'question' 'longer' 'kayo' 'inyong' 'kong' 'distribution'
+ 'free' 'list' 'follow' 'updated' 'fully' 'wala' 'lahat' 'news' 'include'
+ 'limited' 'fruit' 'mango' 'gusto' 'makatanim' 'mangoming' 'bakuran'
+ 'ipaabot' 'masaya' 'makapagshare' 'inyo' 'scions' 'pagdugtong'
+ 'rootstocks' 'grafting' 'bearing' 'plantation' 'mapagbigyan' 'sabay'
+ 'batch' 'committed' 'persons' 'requested' 'february' 'july' 'ayoko'
+ 'magpromise' 'matutupad' 'ipahintulot' 'panginoon' 'buhay' 'nandyan'
+ 'itutuloy' 'wait' 'glad' 'recipient' 'complete' 'address' 'contact'
+ 'number' 'required' 'note' 'limit' 'recipients' 'related' 'click'
+ 'highlights' 'maria' 'socorro' 'modequillo' 'bodiongan' 'posts' 'chat'
+ 'messenger' 'jhec' 'gonzales']
+neg - neg['products' 'farmers' 'juice' 'help' 'daming' 'mabuti' 'nila' 'yung'
+ 'agri' 'mangoes' 'countries' 'middle' 'export' 'buko' 'east' 'thailand']
+pos - inq['magsasaka' 'piñol' 'niya' 'peste' 'marc' 'dizer' 'caoili' 'napakalaking'
+ 'hangin' 'panay' 'palusot' 'explanations']
+neg - neg['happy' 'birthday']
+pos - neg['coconut' 'daily' 'price' 'products' 'farmers' 'instead' 'healthy' 'food'
+ 'government' 'mannypiñol' 'like' 'know' 'cause' 'prices' 'philippines'
+ 'promote' 'advertised' 'fair' 'trade' 'existing' 'public' 'offer'
+ 'giving' 'countries' 'push' 'europe' 'called' 'promoted' 'buko' 'world'
+ 'juices' 'companies' 'germany' 'consumed' 'pure' 'grams' 'euros'
+ 'nutritional' 'addition' 'organized' 'shops' 'seal' 'promotes' 'deserved'
+ 'schools' 'gatherings' 'patronizing' 'alien' 'coke']
+pos - pos['price' 'sabihin' 'watt' 'lahat' 'niyan' 'kapag' 'pisos' 'gerardo'
+ 'empleo' 'suello' 'confirm' 'ibig' 'watts' 'pakabit' 'babayaran'
+ 'included' 'iyon']
+pos - neg['foreign' 'wild' 'policy' 'brain' 'similar' 'west' 'jungle' 'apply'
+ 'idiot']
+neg - neg['hope' 'pinol' 'farmer' 'years' 'fellow' 'dying' 'vien']
+neg - neg['produced' 'local' 'marami' 'warehouses' 'importation' 'imported' 'tayo'
+ 'chinese' 'nang' 'raid' 'stocks' 'urged']
+neg - neg['farmers' 'dito' 'bayan' 'lalo' 'kasi' 'association' 'pres' 'sultan'
+ 'kudarat' 'province' 'isang' 'qualified' 'quirino']
+pos - pos['daghan' 'nesson' 'binobo' 'malipay']
+pos - pos['sobrang' 'pray' 'sipag' 'idol']
+pos - pos['happened' 'renato' 'ulanday' 'ibarra' 'sheeeet']
+pos - pos['price' 'lang' 'lower' 'buying' 'piñol' 'tayo' 'puro' 'sino' 'march'
+ 'pangako' 'dips' 'naout']
+pos - pos['walang' 'late' 'bakit' 'mark' 'panahon' 'ganyan' 'arman' 'aquino'
+ 'panot']
+inq - pos['mannypiñol' 'dito' 'water' 'tubig' 'laki' 'irrigation' 'season' 'wala'
+ 'pananim' 'dati' 'kming' 'nasisira' 'kpag' 'tarlac' 'ngyon' 'biglang'
+ 'lumiit' 'ulama' 'malakas' 'ovee' 'flow' 'buset' 'napakalakas' 'panangga'
+ 'wasak']
+pos - inq['hindi' 'lang' 'poor' 'solar' 'power' 'magsasaka' 'naman' 'secretary'
+ 'powered' 'agriculture' 'agricultural' 'corruption' 'department'
+ 'problem' 'problems' 'blaming' 'sector' 'poverty' 'focus' 'respond'
+ 'governance' 'mainly' 'failure' 'maawa' 'wind' 'appropriately' 'shame'
+ 'hydro' 'considerably' 'reduced' 'paligoyligoy' 'magtrabaho' 'daldal'
+ 'susmaryosep']
+pos - neg['actual' 'nganga' 'website' 'progressive' 'ritzzy' 'sipin' 'pascua']
+pos - pos['walang' 'totoo' 'prrd' 'sabi' 'dami' 'nyan' 'norberto' 'villagracia'
+ 'saulon' 'hangin' 'laman' 'bayag']
+neg - neg['mannypiñol' 'thanks' 'onion' 'environment' 'mlang' 'sang' 'planting'
+ 'growing' 'suitable' 'posibilities' 'makagrow' 'tulunan']
+pos - pos['filipinos' 'products' 'time' 'coco' 'health' 'needed' 'hand' 'coconuts'
+ 'benefits' 'thing' 'place' 'want' 'wrong' 'learn' 'result' 'fruits'
+ 'exporting' 'europe' 'come' 'attention' 'meal' 'wild' 'german' 'rowena'
+ 'paredes' 'barrios' 'aspire' 'kikita' 'abroad' 'paying' 'sexpensive'
+ 'diagnosed' 'breast' 'cancer' 'march' 'mastectomy' 'april' 'short'
+ 'surgery' 'friend' 'introduced' 'undergo' 'chemotherapy' 'herbs'
+ 'smoothie' 'prayers' 'religiously' 'routine' 'waking' 'pulling' 'juices'
+ 'smoothies' 'biopsy' 'clear' 'chemo' 'glory' 'hesitant']
+pos - pos['nalang' 'secpiñol' 'mlang' 'ilagay' 'example' 'lapad' 'sang' 'damo'
+ 'basakan']
+pos - pos['good' 'bless' 'philippines']
+neg - pos['coconut' 'uses' 'daily' 'consumption' 'good' 'cooking' 'easy' 'hope'
+ 'filipinos' 'wisdom' 'manufacture' 'automobiles' 'tricycles']
+neg - neg['filipino' 'farmers' 'government' 'needs' 'farms' 'sustain' 'concern'
+ 'turn' 'commercial' 'financial']
+pos - pos['lang' 'kasi' 'kung' 'secretary' 'kumpara' 'bakit' 'alam' 'duterte'
+ 'tumaas' 'aquino' 'pagtaas' 'sagot' 'dalawang' 'taon' 'pagsasaka'
+ 'lamang' 'tikalon' 'panabong' 'manok' 'ultimo' 'input' 'iwasan' 'peñol'
+ 'loob' 'arroyo']
+pos - neg['kaya' 'farmers' 'lang' 'kaysa' 'traders' 'walang' 'pero' 'kung' 'dapat'
+ 'sila' 'kailangan' 'bakit' 'ngayon' 'bumili' 'dami' 'palay' 'kwenta'
+ 'noon' 'chichiburichi' 'pisos' 'kuno' 'totoong' 'malasakit'
+ 'pinapahirapan']
+neg - neg['time' 'thousands' 'long' 'water' 'hectares' 'pump' 'said' 'rain'
+ 'irrigate' 'technology' 'table' 'maybe' 'worth' 'easier' 'salt' 'cents'
+ 'recedes' 'naturally' 'danger' 'seep' 'avoid']
+inq - pos['para' 'lang' 'lalo' 'walang' 'ginagawa' 'talaga' 'ibang' 'bansa' 'dapat'
+ 'yung' 'nasa' 'tayo' 'ngayon' 'corruption' 'bato' 'countries' 'pareho'
+ 'indonesia' 'restrictions' 'mataas' 'neighbors' 'asean' 'musal' 'adobo'
+ 'namang' 'gaya' 'equal' 'huli' 'vietnam' 'nakalagay' 'constitution'
+ 'footing' 'dehado' 'perception' 'ikinumpara' 'ipaubaya' 'restriction'
+ 'legislation' 'magkaiba' 'nakataga' 'nababago' 'flexible' 'depende'
+ 'pangangailangan']
+neg - inq['manny' 'pwede' 'pang' 'capital' 'magkaroon' 'interesado' 'poultry'
+ 'magkano' 'iloan' 'saad']
+neg - neg['industry' 'help' 'onion' 'able' 'philippine' 'years' 'agriculture'
+ 'investigation' 'putting' 'matter' 'stop' 'persons' 'commend'
+ 'competition' 'commission' 'plan' 'investigate' 'prevailing' 'founding'
+ 'responsible' 'file' 'appropriate' 'charges' 'courts' 'prosecute'
+ 'eroding' 'state' 'taste']
+neg - neg['time' 'government' 'traders' 'practices' 'favor' 'kind' 'economic'
+ 'sabotage' 'passed' 'punishing' 'involved' 'jailed' 'striped'
+ 'properties' 'confiscated']
+inq - inq['pinol' 'manny' 'secretary' 'hahahahaha' 'aslum' 'bong']
+pos - pos['secretary' 'gensan' 'mango']
+pos - pos['farm' 'panel' 'solor']
+pos - pos['coconut' 'copra' 'time' 'farmers' 'para' 'hindi' 'tapos' 'kita' 'talaga'
+ 'ibang' 'market' 'kayo' 'ngayon' 'pinoy' 'buhay' 'parin' 'ganyan'
+ 'palagi' 'iniisip' 'demar' 'nacz' 'katigas' 'hinahanapan' 'nakasalalay'
+ 'magbabago' 'paradigm' 'mahihirapan']
+neg - neg['mardy' 'roque' 'ornedo' 'executive' 'order' 'gawan' 'provisions' 'solve'
+ 'industria' 'agricultura']
+neg - neg['roque' 'seeds' 'nsamar']
+neg - neg['like' 'place' 'post' 'alberto' 'baylon' 'cynics']
+pos - pos['farmers' 'government' 'storage' 'traders' 'cold' 'know' 'taking'
+ 'produce' 'support' 'care' 'fees' 'store' 'intervene' 'checked' 'breed'
+ 'forcibly' 'opened' 'forced' 'unutilized' 'space' 'profit' 'sweat'
+ 'disgruntled' 'kaliwa' 'exploit']
+neg - neg['middle' 'feudalism' 'ages' 'oligarchs' 'ogmatic' 'parliamentary']
+neg - neg['ventilation']
+neg - neg['coconut' 'locally' 'milk' 'sell' 'export' 'couldn' 'cartons']
+neg - neg['rene' 'pamintuan' 'govt' 'ngaun' 'gobyerno' 'sila' 'ntin' 'lacks'
+ 'foresight' 'kikilos' 'sayang' 'sweldo' 'consultants']
+inq - pos['mannypiñol' 'lang' 'ayaw' 'kung' 'nila' 'hectares' 'tanggapon' 'bigay'
+ 'amin' 'benificiaries' 'sisiman' 'lutayan' 'sultan' 'kudarat']
+pos - neg['better' 'believe']
+neg - neg['namin' 'grabe' 'buying' 'naman' 'malaki' 'saan' 'kayo' 'nasa' 'davao'
+ 'samin' 'negosyante' 'city' 'baba' 'malapit' 'kupra' 'pabili' 'ganansiya']
+pos - pos['solar' 'benefit' 'land' 'haciendero' 'piece' 'little' 'space' 'pannel']
+neg - inq['walang' 'tell' 'gobyerno' 'mango' 'talk' 'bwahahahaha' 'grower'
+ 'proteksyon' 'bullshit']
+neg - neg['coco' 'cartel' 'stop']
+inq - pos['pres' 'duterte' 'happy' 'birthday']
+neg - pos['excellent' 'performance']
+pos - neg['taga' 'palay' 'seeds' 'mamigay' 'giblower' 'seedgrowers' 'kasabwat']
+neg - neg['good' 'time' 'pinol' 'secretary']
+pos - pos['manny' 'thank' 'kayo' 'mabuhay']
+neg - neg['congrats']
+neg - inq['corruption' 'corret']
+neg - neg['copra' 'unta']
+neg - neg['kaya' 'para' 'baka' 'kasi' 'natin' 'bansa' 'produkto' 'practice'
+ 'normal' 'ganun' 'kanila' 'maayus' 'usap' 'dinadala' 'kadali' 'tayu'
+ 'rumesbak' 'nakikipag' 'legal' 'maapektuhan']
+neg - neg['taga' 'ngaun' 'pero' 'pesos' 'kilo' 'pilipino' 'maraming' 'adviser'
+ 'wala' 'pagtatanim' 'indonesia' 'thailand' 'africa' 'mahal' 'panahon'
+ 'palmoil' 'pnoy' 'nuong' 'huminto' 'sumusunod' 'technician' 'pinapirate'
+ 'tacurong']
+neg - neg['tell' 'president' 'educate']
+neg - neg['coconut' 'farmers' 'hopefully' 'disappointed']
+pos - pos['good' 'rene' 'pamintuan' 'expert' 'experts' 'hndle']
+pos - pos['manny' 'gyud' 'pang' 'world' 'class']
+pos - pos['right']
+neg - neg['local' 'farmers' 'citizens' 'mannypiñol' 'govt' 'association'
+ 'cooperative' 'assisted' 'funding' 'programs' 'positive' 'contribution']
+neg - inq['tell' 'corrupt' 'politician' 'face']
+inq - inq['wish' 'late' 'soon' 'sister' 'gone' 'mary' 'dabalos' 'rabadon']
+inq - neg['coconut' 'cooking' 'price' 'filipino' 'palm' 'pesos' 'produce' 'lesser'
+ 'seen' 'store' 'haven' 'costs' 'glad' 'patronize' 'currently' 'sells'
+ 'equal' 'switch' 'liter' 'grocery']
+neg - pos['problem' 'discipline']
+pos - neg['farmers' 'buyers' 'held' 'cooperative' 'technique' 'organize'
+ 'marketing' 'organized' 'captive']
+pos - pos['true' 'free' 'miat' 'dualan' 'irrigation']
+neg - inq['coconut' 'palm' 'vegetable' 'healthy' 'better' 'study' 'dili'
+ 'according' 'germany']
+neg - inq['locally' 'need' 'process' 'prices' 'promote' 'dont' 'given' 'looking'
+ 'reason' 'exporting' 'phil' 'guimaras' 'mainland' 'mango' 'guinaras'
+ 'benchmark' 'protocols' 'preferrable' 'strict' 'accreditation' 'entails']
+neg - neg['need' 'help' 'govt' 'market' 'sales' 'vector' 'presume']
+pos - pos['waiting' 'death' 'penalty']
+pos - inq['hindi' 'lahat' 'lugar' 'marilyn' 'tuscano' 'bulaay' 'herrero' 'kingnoel'
+ 'peralta' 'akala' 'ngunit' 'piling' 'yata']
+neg - neg['market' 'world' 'china' 'flood']
+neg - neg['know' 'drought' 'problem']
+neg - neg['high' 'farmers' 'pong' 'solar' 'panels' 'maganda' 'mura' 'dahil' 'pump'
+ 'biggest' 'surface' 'irrigation' 'controller' 'pumps' 'bukid' 'wala'
+ 'lahat' 'mahirap' 'actually' 'commonly' 'simply' 'replacing' 'diesel'
+ 'engine' 'motor' 'ganito' 'gawin' 'liters' 'belt' 'driven' 'madali'
+ 'maintain' 'align' 'coupling' 'speed' 'gamit']
+pos - neg['wish' 'people' 'avail' 'city' 'sipalay']
+neg - neg['farmers' 'daming' 'pwede' 'dont' 'drought' 'butas' 'lahat' 'assistance'
+ 'parang' 'phils' 'hndi' 'develop' 'policy' 'karayum' 'pahirapan']
+pos - inq['farmers' 'help' 'solar' 'thank' 'project' 'avail' 'powered' 'group'
+ 'submit' 'proposal' 'dole' 'accredited' 'upland' 'leyte' 'irrgation']
+pos - pos['farmers' 'salamat' 'mannypiñol' 'okay' 'reply' 'nako' 'pwede' 'tanan'
+ 'labi' 'member' 'association' 'amping' 'kanunay']
+pos - pos['effective']
+neg - pos['kaya' 'mannypiñol' 'namin' 'sobrang' 'baka' 'pero' 'bago' 'bigyan'
+ 'produce' 'maraming' 'irrigation' 'amin' 'pumping' 'isabela' 'palay'
+ 'hirap' 'kami' 'puede' 'gamu' 'layo' 'magat' 'dalawang' 'station'
+ 'dumaan' 'makapag']
+pos - pos['price' 'copra' 'dito' 'kilo' 'buying' 'amin' 'city' 'cabadbaran']
+neg - neg['coconut' 'palm' 'best' 'production' 'environment' 'stop' 'destructive'
+ 'healthier']
+pos - inq['true' 'lumajen' 'maritess' 'gustilo']
+pos - pos['trabaho' 'alain' 'alafriz' 'dagdag' 'bugbog']
+neg - inq['good' 'news']
+pos - pos['farmers' 'rice' 'future' 'produce' 'amazing' 'harvesters' 'planters'
+ 'phil']
+neg - neg['good' 'farmers' 'poor' 'farmer' 'pero' 'susunod' 'surely' 'seen'
+ 'follow' 'allow' 'young' 'children' 'sino' 'neighbors' 'going' 'abuse'
+ 'bata' 'kayod' 'kalabaw' 'continuously' 'nowadays' 'loko' 'lokong'
+ 'knilang' 'magulang' 'habambuhay' 'pobre' 'footstep']
+pos - inq['hahaha' 'umasa' 'nang']
+pos - pos['good' 'work' 'thank' 'prrd' 'helping']
+pos - pos['rice' 'plant' 'clarita' 'carlos' 'noted' 'aquatic']
+neg - neg['filipino' 'bless' 'people' 'thank' 'president' 'kayo' 'mabuhay'
+ 'loyalty' 'iyong' 'kasama']
+pos - neg['main' 'problem' 'mango' 'suspend' 'ripening']
+neg - neg['onion' 'production' 'pwede' 'avail' 'davao' 'alam' 'seedling'
+ 'conducted' 'garlic' 'seminar' 'pagtanim' 'attended' 'opis']
+pos - pos['good']
+pos - pos['alex' 'bermudez']
+pos - neg['taga' 'farmer' 'dapat' 'place' 'kawawa' 'occur' 'pano' 'different'
+ 'probs' 'assign' 'masolusyonan' 'ptob']
+neg - inq['farmer' 'talaga' 'gobyerno' 'pati' 'ngayon' 'palay' 'ramos' 'tinamaan'
+ 'kami' 'modernization' 'kawawa' 'suporta']
+neg - neg['healthy' 'philippines' 'israel' 'bigger' 'growing' 'bananas' 'mangoes'
+ 'fruits' 'vegetables' 'sizes']
+pos - pos['management' 'lousy']
+pos - pos['bless' 'pinol' 'brilliant' 'kayo' 'mabuhay']
+neg - pos['david' 'brain' 'alexander' 'pick']
+neg - pos['almadinie' 'tinood' 'unta']
+pos - neg['president' 'guess' 'notice' 'ring' 'bell']
+pos - pos['good']
+neg - neg['time' 'thanks' 'source' 'actual' 'convince' 'money' 'german' 'friend'
+ 'diet' 'living' 'kill' 'spend' 'saleut' 'deutsch' 'sorrounded'
+ 'prayerful' 'brothers' 'sisters' 'christ' 'pushy' 'passionate' 'pain'
+ 'stress' 'worry' 'fear' 'disease' 'drunk' 'suggestion']
+pos - pos['entitled' 'opinion' 'cherry' 'correos' 'tibay']
+neg - inq['hope' 'ajrah' 'khalil' 'yeap' 'realize' 'bigger' 'picture' 'ideas']
+pos - inq['good' 'bless']
+neg - pos['desert' 'pinol' 'thank' 'emmanuel' 'bloom' 'greatest' 'achievement'
+ 'israeli' 'scientists']
+pos - inq['mannypiñol' 'dito' 'bayan' 'namin' 'comment' 'animals' 'dami' 'concern'
+ 'city' 'tarlac' 'goat' 'raisings' 'provincial' 'jusko' 'marandaman'
+ 'aalaga']
+neg - neg['prob' 'gary' 'maramag' 'atty']
+neg - neg['kaya' 'hindi' 'friends' 'willing' 'akong' 'lang' 'pong' 'like' 'kung'
+ 'available' 'future' 'page' 'comment' 'long' 'trees' 'aware' 'dahil'
+ 'kanilang' 'question' 'longer' 'kayo' 'inyong' 'kong' 'distribution'
+ 'free' 'list' 'follow' 'updated' 'fully' 'wala' 'lahat' 'news' 'include'
+ 'limited' 'fruit' 'mango' 'clay' 'torres' 'gusto' 'makatanim' 'mangoming'
+ 'bakuran' 'ipaabot' 'masaya' 'makapagshare' 'inyo' 'scions' 'pagdugtong'
+ 'rootstocks' 'grafting' 'bearing' 'plantation' 'mapagbigyan' 'sabay'
+ 'batch' 'committed' 'persons' 'requested' 'february' 'july' 'ayoko'
+ 'magpromise' 'matutupad' 'ipahintulot' 'panginoon' 'buhay' 'nandyan'
+ 'itutuloy' 'wait' 'glad' 'recipient' 'complete' 'address' 'contact'
+ 'number' 'required' 'note' 'limit' 'recipients' 'related' 'click'
+ 'highlights' 'maria' 'socorro' 'modequillo' 'bodiongan' 'posts' 'chat'
+ 'messenger']
+pos - inq['bless' 'pinol' 'manny' 'agriculture' 'department' 'kepp']
+pos - neg[]
+neg - neg['coconut' 'products' 'time' 'salamat' 'manny' 'help' 'farmer' 'promote'
+ 'benefits' 'team' 'countries' 'imohang' 'effort' 'explore' 'apil' 'tuba']
+neg - inq['bless' 'prrd' 'happy' 'birthday']
+pos - pos['coconut']
+pos - pos['coconut' 'virgin' 'market' 'moscow']
+pos - pos['palm' 'food' 'rene' 'pamintuan' 'materials' 'beauty' 'industry' 'adding'
+ 'value']
+pos - pos['solar' 'avail' 'irrigation' 'piñil' 'pangasinan']
+neg - neg['late']
+neg - pos['good' 'wisdom' 'health' 'mannypiñol' 'grace' 'favor']
+pos - neg['good' 'family' 'government' 'bless' 'pinol' 'needs' 'political' 'sipag'
+ 'salute' 'luck' 'tiyaga' 'strengthened' 'fight' 'vested' 'official']
+pos - pos['pinol' 'thank' 'free' 'morons' 'surrendering' 'idiots']
+neg - inq['good' 'hope' 'price' 'para' 'north' 'cotabato' 'pinol' 'need' 'help'
+ 'quality' 'power' 'discouraging' 'dept' 'market' 'agriculture' 'mangoes'
+ 'export' 'kidapawan' 'sweet' 'makabawi' 'pagpatanom']
+pos - inq['price' 'copra' 'products' 'farmer' 'buying' 'mura' 'halaga' 'magsasaka'
+ 'digong' 'billion' 'palay' 'grbe' 'ntlga' 'dnya' 'nkita' 'hirap'
+ 'subrang' 'inuna' 'ship' 'npabayaan' 'nnya' 'puyat' 'mgtrabaho' 'tpos']
+pos - neg['hope' 'farmers' 'manny' 'nice' 'solve' 'product' 'prices' 'agricultural'
+ 'adopt' 'supplies' 'countries' 'problems' 'technique' 'stop'
+ 'importations']
+pos - pos['meron' 'actually' 'rodney' 'mendioro' 'balicaco']
+inq - inq['good' 'sana' 'yong' 'quality']
+pos - neg['time' 'marami' 'know' 'bansa' 'power' 'crisis' 'project' 'country'
+ 'proyekto' 'plant' 'nuclear' 'tubig' 'energy' 'fhlo' 'payoc' 'tama'
+ 'electricity' 'biggest' 'free' 'projects' 'having' 'solution' 'problem'
+ 'research' 'money' 'discoveries' 'generate' 'pang' 'service' 'owns'
+ 'ating' 'real' 'wealth' 'greed' 'sagot' 'magagandang' 'maaring' 'kurenti'
+ 'definite' 'conglomerate' 'corporations' 'blocking' 'demon' 'mammon'
+ 'corpo' 'regenerates' 'golden' 'tesla' 'edison' 'wireless' 'block']
+neg - neg['good' 'health' 'life' 'years' 'president' 'happy' 'enjoy' 'birthday']
+pos - pos['coconut' 'cooking' 'filipinos' 'strongly' 'virgin' 'health' 'concerns'
+ 'palm' 'canola' 'vegetable' 'healthy' 'truth' 'work' 'small' 'promoting'
+ 'discouraging' 'soya' 'bean' 'highly' 'toxic' 'causing' 'helped' 'crisis'
+ 'ovarian' 'cysts' 'severe' 'endemetriosis' 'myomas' 'philippines'
+ 'blessed' 'abundant' 'trees' 'dept' 'education' 'hand' 'telling'
+ 'coconuts' 'sadly' 'doctors' 'wont' 'tell' 'fact' 'heal']
+pos - pos['need' 'water' 'underground' 'scientific' 'requirements' 'aquifer' 'pool'
+ 'location' 'avail' 'services' 'georesistivity' 'testing' 'deepwell'
+ 'drilling' 'gerick' 'padilla' 'forest' 'cover' 'hold' 'depends' 'stored'
+ 'rainfall' 'network' 'surface' 'winding' 'streams' 'ground' 'finding'
+ 'underneath']
+neg - neg['good' 'cooking' 'agree' 'locally' 'produced' 'brands' 'para' 'rice'
+ 'bumaba' 'talaga' 'importation' 'quality' 'prices' 'trade' 'market'
+ 'comes' 'cheaper' 'free' 'current' 'gusto' 'plan' 'totally' 'hassim'
+ 'diakem' 'nagtataka' 'magkaroon' 'commercial' 'gustong' 'tanggalin'
+ 'mercado' 'honorables']
+pos - pos['hope' 'areas' 'needed' 'like' 'able' 'product' 'hand' 'tell' 'achieve'
+ 'water' 'plant' 'zones' 'zoning' 'fruits' 'mango' 'suffer' 'strong'
+ 'happens' 'seeding' 'clouds' 'particular' 'federalism']
+pos - pos['secretary' 'mangoming' 'magugulat']
+neg - inq['best' 'secretary']
+pos - pos['solid' 'waste' 'nato' 'implement' 'strictly' 'barangay' 'level'
+ 'municipal' 'national' 'pinalties' 'improper' 'disposal']
+pos - pos['good' 'needs' 'production' 'processing' 'plants' 'market' 'agriculture'
+ 'agri' 'properly' 'driven' 'marketing' 'engaged' 'thailand' 'logistics'
+ 'neighbors' 'appropriate' 'worldwide' 'vietnam' 'weakness' 'strong'
+ 'linkages' 'packing' 'standards' 'bureaucracy' 'staffed' 'salesmanship']
+pos - pos['dead' 'country' 'gabot' 'lowest' 'near' 'alfred' 'greenery' 'supposed'
+ 'saturated' 'salt']
+neg - inq['promote' 'sales' 'replanting' 'expanded']
+inq - pos['thanks']
+neg - pos['land' 'agri' 'industrial' 'commercial' 'conversion' 'aquaculture']
+neg - neg['sana' 'matuloy']
+neg - neg['coconut' 'products' 'farmers' 'help' 'best' 'philippines' 'market'
+ 'continue' 'allow' 'stop' 'experience' 'export' 'competition' 'material'
+ 'china' 'protecting' 'millers' 'businessmen' 'exported' 'futile'
+ 'sacrifice']
+neg - neg['price' 'farmers' 'manny' 'marami' 'ngaun' 'cost' 'yong' 'mura' 'project'
+ 'makinabang' 'gamit' 'parang' 'review' 'unlike' 'rduce']
+pos - pos['ennie' 'estrada' 'logarta' 'yeah']
+inq - inq['products' 'supply' 'government' 'imported' 'long' 'causes' 'rose'
+ 'excuse' 'mentiined' 'safeguards' 'kibit' 'balikat']
+neg - pos['cost' 'water' 'places' 'cheaper' 'affordable' 'europe' 'compared'
+ 'export' 'consumers' 'variety' 'mangos' 'coming' 'half' 'treatment'
+ 'european' 'grow' 'travel' 'carabao' 'mexico' 'distance' 'landed' 'south'
+ 'veracruz' 'couldn' 'wouldn' 'stand']
+neg - inq['thanks' 'makahingi' 'pwede' 'saan' 'free' 'scions']
+pos - pos['sibuyas' 'meron' 'madam' 'ninya' 'marie' 'kayong' 'bagong' 'aning']
+neg - neg['good' 'health' 'kasi' 'comment' 'power' 'pinas' 'working' 'idol'
+ 'liking']
+neg - pos['hope' 'poor' 'farmer' 'govt' 'cost' 'area' 'possible' 'project' 'water'
+ 'source' 'secretary' 'equipment' 'provide' 'irrigation' 'solution'
+ 'problem' 'hard' 'admit' 'somebody' 'issue' 'huge' 'investment' 'knew']
+neg - pos['money' 'jesse' 'mendiola' 'talks']
+pos - inq['price' 'mannypiñol' 'sana' 'ngaun' 'pickles' 'maliliit' 'magsaysay'
+ 'mapansin']
+neg - neg['filipinos' 'work' 'thank' 'appreciate' 'hard']
+pos - neg['filipinos' 'bless' 'manny' 'congratulations' 'secretary' 'kayo'
+ 'mabuhay' 'proud']
+inq - neg['hope' 'small' 'nice' 'secretary' 'farm' 'kudos' 'equiptment']
+neg - neg['price' 'dito' 'gloria' 'segaya' 'maam' 'occi' 'wlang' 'ganyang']
+neg - neg['gyud' 'piñol']
+inq - pos['poor' 'rice' 'people' 'pdaf' 'corruption' 'isolated' 'case' 'copras']
+pos - neg['farmers' 'help' 'agarang' 'solusyon' 'nice' 'onion']
+neg - inq['pinol' 'prrd' 'congresman' 'happy' 'kidapawan' 'birtday' 'efren' 'city']
+pos - pos['kilo' 'piece' 'dollar']
+neg - neg['farmers' 'storage' 'cold']
+neg - neg['lang' 'kung' 'agad' 'market' 'tayo' 'alam' 'world' 'reklamo' 'johnny'
+ 'bobadilla' 'kongi']
+neg - neg['solar' 'pesos' 'cost' 'antonio' 'pump' 'includes' 'watt' 'goyala'
+ 'panel' 'total' 'package' 'pumping' 'controller' 'racking' 'require'
+ 'additional']
+pos - neg['coconut' 'agree' 'price' 'copra' 'break' 'worst' 'lugi' 'strongly'
+ 'opposed' 'alternatives' 'products' 'tree' 'uuling']
+pos - inq['manny' 'whipping' 'manong']
+pos - neg['share' 'hindi' 'lang' 'sabihin' 'pesos' 'nila' 'budget' 'corrupt'
+ 'project' 'millions' 'resources' 'officials' 'makukuha' 'kinabukasan'
+ 'approve' 'dream']
+neg - neg['mannypiñol' 'jose' 'mindoro' 'dito' 'ngaun' 'pesos' 'kilo' 'office'
+ 'amin' 'rose' 'husband' 'aniñon' 'renzyrhex' 'domingo' 'dati' 'niong'
+ 'staff' 'amas' 'nlng' 'kuha' 'smin']
+neg - neg['kaya' 'ayaw' 'cory' 'iboto' 'otso' 'pagbabago']
+neg - neg['manny' 'harvest' 'thank' 'fruits' 'export' 'guimaras' 'mango' 'coming'
+ 'week' 'expected' 'guide']
+inq - inq['good' 'need' 'bananas' 'mangoes' 'send' 'norway' 'badly']
+pos - inq['farmers' 'para' 'hindi' 'coop' 'lang' 'farmer' 'onion' 'member'
+ 'association' 'tayong' 'funding' 'pano' 'members' 'individual' 'harold']
+neg - neg['food' 'manny' 'agricultural' 'industrial' 'commercial' 'shortage'
+ 'conversion' 'securitu']
