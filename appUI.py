@@ -3,12 +3,16 @@ from tkinter import *
 class UI(Frame):
     def __init__(self, master):
         super().__init__(master)
-        self.loginFrame = Frame(root)
+        self.root = master
+        self.loginFrame = Frame(self.root)
         self.uname = None
         self.passw = None
         self.loginBtn = None
         self.errorLabel = None
-
+        self.link = None
+        self.processBtn = None
+        self.mainFrame = None
+    
     def loginMenu(self):
         userFrame = Frame(self.loginFrame)
         passFrame = Frame(self.loginFrame)
@@ -26,7 +30,19 @@ class UI(Frame):
         self.loginFrame.pack()
         
     def mainAppUI(self):
-        
+        self.mainFrame = Frame(self.root)
+        topFrame = Frame(self.mainFrame)
+        Label(topFrame, text="Enter link:").pack(side="left")
+        self.link = Entry(topFrame)
+        self.link.pack(side="right")
+        topFrame.pack()
+        self.processBtn = Button(self.mainFrame, text="Go")
+        self.processBtn.pack()
+        botFrame = Frame(self.mainFrame)
+        Label(botFrame, text="Results here").pack()
+        botFrame.pack()
+        self.mainFrame.pack()
+
     def login(self):
         #try login here
         flag = 1 #log in result
