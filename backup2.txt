@@ -1,0 +1,20 @@
+'''
+gnb = GaussianNB()
+gnb.fit(X_train,y_train)
+y_pred = gnb.predict(X_test)
+
+log_model = LogisticRegression()
+log_model = log_model.fit(X=X_train, y=y_train)
+y_pred = log_model.predict(X_test)
+
+j = random.randint(0, len(X_test)-20)
+for i in range(j, j+20):
+    ind = features_nd.tolist().index(X_test[i].tolist())
+    print(data[ind].strip())
+
+filepredict = open("predictions.text", "w", encoding="utf-8")
+for i in range(len(y_pred)):
+    filepredict.write(str(y_predicted_labels[i]) + " - " + str(X_test[i]) + "\n")
+filepredict.close()
+
+'''
