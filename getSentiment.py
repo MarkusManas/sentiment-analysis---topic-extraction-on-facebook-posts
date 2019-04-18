@@ -45,39 +45,57 @@ def splitTextBySentiment():
 # negSet = []
 # corpus = []
 
-data = []
-dataLabels = []
+def trainModel():
+    z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
 
-positive = open("postest1.txt", "r", encoding="utf-8")
-negative = open("negative.txt", "r", encoding="utf-8")
-inquiry = open("inquiry.txt", "r", encoding="utf-8")
-for line in positive:
-    data.append(line.rstrip())
-    dataLabels.append('pos')
-for line in negative:
-    data.append(line.rstrip())
-    dataLabels.append('neg')
-for line in inquiry:
-    data.append(line.rstrip())
-    dataLabels.append('inq')
+    data = []
+    dataLabels = []
 
-vectorizer = CountVectorizer(analyzer='word',tokenizer=tokenize, lowercase=False)
-encoder = LabelEncoder()
-x = vectorizer.fit_transform(data)
-y = encoder.fit_transform(dataLabels)
-X_train, X_test, y_train, y_test = train_test_split(x, y, train_size=0.80, random_state=84230)
+    positive = open("positive.txt", "r", encoding="utf-8")
+    negative = open("negative.txt", "r", encoding="utf-8")
+    neutral = open("neutral.txt", "r", encoding="utf-8")
+    for line in positive:
+        data.append(line.rstrip())
+        dataLabels.append('pos')
+    for line in negative:
+        data.append(line.rstrip())
+        dataLabels.append('neg')
+#    for line in neutral:
+#        data.append(line.rstrip())
+#        dataLabels.append('neu')
 
-mnb = MultinomialNB()
-mnb.fit(X_train,y_train)
-y_pred = mnb.predict(X_test)
-y_predicted_labels = encoder.inverse_transform(y_pred)
-y_test_actual = encoder.inverse_transform(y_test)
-x_test_maps = vectorizer.inverse_transform(X_train)
+    vectorizer = CountVectorizer(analyzer='word',tokenizer=tokenize, lowercase=False)
+    encoder = LabelEncoder()
+    x = vectorizer.fit_transform(data)
+    y = encoder.fit_transform(dataLabels)
+    X_train, X_test, y_train, y_test = train_test_split(x, y, train_size=0.80, random_state=84230)
 
-predictFile = open("predictions.txt", "w", encoding="utf-8")
-for i in range(len(y_predicted_labels)):
-    predictFile.write(str(y_predicted_labels[i]) + " - " + str(y_test_actual[i]) + str(x_test_maps[i]) + "\n")
-print(accuracy_score(y_test, y_pred))
-predictFile.close()
+    mnb = MultinomialNB()
+    mnb.fit(X_train,y_train)
+    y_pred = mnb.predict(X_test)
+    y_predicted_labels = encoder.inverse_transform(y_pred)
+    y_test_actual = encoder.inverse_transform(y_test)
+    x_test_maps = vectorizer.inverse_transform(X_train)
 
+    predictFile = open("predictions.txt", "w", encoding="utf-8")
+    for i in range(len(y_predicted_labels)):
+        predictFile.write(str(y_predicted_labels[i]) + " - " + str(y_test_actual[i]) + str(x_test_maps[i]) + "\n")
+    print(accuracy_score(y_test, y_pred))
+    predictFile.close()
+    
+    return mnb,encoder,vectorizer
 # print(posSet)
+
+def getSent(model, encoder, vect, text):
+    x = vect.transform([text])
+    y = model.predict(x)
+    print("ASDASDAD")
+    senti = encoder.inverse_transform(y)
+
+    print(senti, text)
+
+    return senti
+'''
+x, enc, vect = trainModel()
+z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
+getSent(x, enc, vect,z)'''

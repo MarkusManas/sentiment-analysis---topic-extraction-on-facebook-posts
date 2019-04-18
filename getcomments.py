@@ -10,15 +10,15 @@ import calendar
 import time
 
 
-def login():
+def login(uname,passw):
 	browser = webdriver.Chrome("chromedriver") 
 	url = "http://m.facebook.com/"
 	browser.get(url) #navigate to the page
 	username = browser.find_element_by_id("m_login_email") #username form field
 	password = browser.find_element_by_xpath("//input[@name='pass']") #password form field
 
-	username.send_keys("markus5798")
-	password.send_keys("february_2K16")
+	username.send_keys(uname)
+	password.send_keys(passw)
 
 	submitButton = browser.find_element_by_id("u_0_5")
 	submitButton.click() 
@@ -30,7 +30,7 @@ def login():
 	element = WebDriverWait(browser, wait_time).\
 		until(EC.element_to_be_clickable((By.LINK_TEXT, 'Not Now')))
 	element.click()
-	return browser
+	return browser,True
 
 def get_mobile_link(link):
 	newLink=""
@@ -135,7 +135,7 @@ def get_comments(browser,link):
 	postDate = postDate.find('abbr').text
 	#post id
 	postID = re.findall(r"(?<=story_fbid\=)\d+", link)[0]
-	postFilename = postID+"-post.csv"
+	postFilename = "./downloads/"+postID+"-post.csv"
 	postAuthor = soup.h3.strong.text
 	#get timestamp
 	curr_time = calendar.timegm(time.gmtime())
@@ -182,6 +182,7 @@ def get_comments(browser,link):
 		the_file.write(postText)
 		the_file.write('\n')
 	the_file.close()
+	postObj = [postID, postDate, postAuthor, postText]
 	for fl in firstLevelComments:
 	#	print(count)
 		ogComment = {}
@@ -245,18 +246,18 @@ def get_comments(browser,link):
 	#	for key,val in commentObj.items():
 	#		post1.writerow([key,val])
 	keys = commentlist[0].keys()
-	commentsFilename = postID + "-comments.csv"
+	commentsFilename = "./downloads/"+ postID + "-comments.csv"
 	with open(commentsFilename, 'w', encoding="utf-8", newline="") as output_file:
 		dict_writer = csv.DictWriter(output_file, keys)
 		dict_writer.writeheader()
 		dict_writer.writerows(commentlist)
-
-
-browser = login()
-link=""
+	return postObj, commentlist
+'''
+#browser = login()
+#link=""
 while(link != "exit"):
 	link = input("Enter mobile link of post: ")
 	if(link == "exit"):
 		print("bye")
 		break
-	get_comments(browser,link)
+	get_comments(browser,link)'''
