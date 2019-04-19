@@ -182,7 +182,7 @@ def get_comments(browser,link):
 		the_file.write(postText)
 		the_file.write('\n')
 	the_file.close()
-	postObj = [postID, postDate, postAuthor, postText]
+	postObj = {"id" : postID, "date" : postDate, "author" : postAuthor, "text" : postText}
 	for fl in firstLevelComments:
 	#	print(count)
 		ogComment = {}

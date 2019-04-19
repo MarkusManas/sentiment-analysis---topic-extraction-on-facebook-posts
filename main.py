@@ -3,20 +3,21 @@ import threading
 import selenium
 from getcomments import get_comments, login
 from getSentiment import trainModel, getSent
+from topicExtraction import model_processing
 def processPost():
     global app, model, encoder, vect
 
-    app.link = app.link.get()
+    link = app.link.get()
 
     #download and save comments and post first
     #downloading post
-
-    postObj, commentsList = get_comments(app.browser,app.link)
+    print("attempting to get comments")
+    postObj, commentsList = get_comments(app.browser,link)
 
     print("Finished downloading posts and comments")
-
+    generalSenti = ""
     count = 0
-
+    posCount = negCount = neuCount = 0
     textSentiList = []
 
     for comm in commentsList:
@@ -29,6 +30,17 @@ def processPost():
         print("encoded - ", count)
         textSenti["senti"] = sent
         textSentiList.append(textSenti)
+        if sent == "pos":
+            posCount += 1
+        elif sent == "neu":
+            neuCount += 1
+        else:
+            negCount += 1
+
+    if posCount > negCount:
+        generalSenti = "Positive"
+    else:
+        generalSenti = "Negative"
 
     print("finished predicting")
     file = open("test.txt", "w", encoding="utf-8")
@@ -37,11 +49,19 @@ def processPost():
         file.write(str(item["senti"]))
         file.write(" - ")
         file.write(item["text"])
-        file.write("\n")
-    
+        file.write("\n")  
+
     file.close()
-    
-    return
+    print("Genereal sentiment is: ", generalSenti)
+
+    topicModel = model_processing(postObj["text"])    
+    #get Topic
+
+    return 0
+
+def processBtnThread():
+    thr = threading.Thread(target=processPost)
+    thr.start()
 
 class App(threading.Thread):
 
@@ -101,7 +121,7 @@ class App(threading.Thread):
         self.link = Entry(topFrame)
         self.link.pack(side="right")
         topFrame.pack()
-        self.processBtn = Button(self.mainFrame, text="Go", command=processPost)
+        self.processBtn = Button(self.mainFrame, text="Go", command=processBtnThread)
         self.processBtn.pack()
         botFrame = Frame(self.mainFrame)
         Label(botFrame, text="Results here").pack()
