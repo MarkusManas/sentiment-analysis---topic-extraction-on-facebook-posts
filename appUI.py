@@ -44,25 +44,40 @@ class UI(Frame):
         
         
     def mainAppUI(self):
-        self.mainFrame = Frame(self.root)
-        topFrame = Frame(self.mainFrame)
+        self.root.geometry("400x250+400+400")
+        self.mainFrame = Frame(self.root,pady=10,bg="gray")
+        topFrame = Frame(self.mainFrame,borderwidth=1, relief="raised")
         Label(topFrame, text="Enter link:").pack(side="left")
-        self.link = Entry(topFrame)
+        self.link = Entry(topFrame,width=80)
         self.link.pack(side="right")
-        topFrame.pack()
-        self.processBtn = Button(self.mainFrame, text="Go")
+        topFrame.pack(pady=5)
+        self.processBtn = Button(self.mainFrame, pady = 2, text="Get summary")
         self.processBtn.pack()
-        botFrame = Frame(self.mainFrame)
-        Label(botFrame, text="Results here").pack()
-        botFrame.pack()
-        self.mainFrame.pack()
+        botFrame = Frame(self.mainFrame,bd=1, relief="raised")
+        Label(botFrame, text="General summary:", bd=1, relief="raised").pack()
+        gridInFrame = Frame(botFrame,pady=1,padx=3, bd=1, relief='raised')
+        Label(gridInFrame, text="Post Id:", font=('Arial', 10,'bold')).grid( row=0, column=0, padx=5)
+        Label(gridInFrame, text="Post Author:", font=('Arial', 10,'bold')).grid( row=0, column=1, padx=5)
+        Label(gridInFrame, text="Post Date:", font=('Arial', 10,'bold')).grid( row=0, column=2, padx=5)
+        Label(gridInFrame, text="Comments:", font=('Arial', 10,'bold')).grid( row=0, column=3, padx=5)
+        Label(gridInFrame, text="lorem").grid( row=1, column=0, padx=5)
+        Label(gridInFrame, text="ipsum").grid( row=1, column=1, padx=5)
+        Label(gridInFrame, text="dolor").grid( row=1, column=2, padx=5)
+        Label(gridInFrame, text="lorem").grid( row=1, column=3, padx=5)
+        Label(gridInFrame, text = "Sentiment", font=('Arial', 10,'bold')).grid(row=2, column=0, padx=5)
+        Label(gridInFrame, text = "lorem ipsum").grid(row=3, column=0, padx=5)
+        
+
+        gridInFrame.pack(padx=5, pady=5)
+        botFrame.pack(pady=10)
+        self.mainFrame.pack(fill=BOTH, expand=1)
 
     
 
 #        Label(loginUI,text="Failed").pack()
         return
 root = Tk()
-root.geometry("300x100+300+300")
+root.geometry("300x100+400+400")
 windowUI = UI(root)
 windowUI.loginMenu()
 

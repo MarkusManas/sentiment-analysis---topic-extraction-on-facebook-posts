@@ -251,6 +251,7 @@ def get_comments(browser,link):
 		dict_writer = csv.DictWriter(output_file, keys)
 		dict_writer.writeheader()
 		dict_writer.writerows(commentlist)
+		
 	return postObj, commentlist
 '''
 #browser = login()
