@@ -89,10 +89,7 @@ def trainModel():
 def getSent(model, encoder, vect, text):
     x = vect.transform([text])
     y = model.predict(x)
-    print("ASDASDAD")
     senti = encoder.inverse_transform(y)
-
-    print(senti, text)
 
     return senti
 '''

@@ -253,12 +253,3 @@ def get_comments(browser,link):
 		dict_writer.writerows(commentlist)
 		
 	return postObj, commentlist
-'''
-#browser = login()
-#link=""
-while(link != "exit"):
-	link = input("Enter mobile link of post: ")
-	if(link == "exit"):
-		print("bye")
-		break
-	get_comments(browser,link)'''
