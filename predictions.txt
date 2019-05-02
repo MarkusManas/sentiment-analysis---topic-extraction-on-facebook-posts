@@ -1,706 +1,338 @@
-neg - neg[]
-pos - pos['best' 'jigs' 'dolores' 'ignacio' 'farmer' 'kayo' 'feel']
-pos - neg['good' 'piñol']
-neg - neg['supply' 'palay' 'comment' 'water' 'control' 'crop' 'demand' 'based'
- 'farms' 'irrigate' 'inefficient' 'wastefull' 'utilizing' 'dong' 'rasco']
-pos - pos['secretary' 'mangoming' 'magugulat']
-pos - pos['think' 'govt' 'food' 'long' 'program' 'neglected' 'agriculture'
- 'politicians' 'administration' 'drought' 'including' 'adopt' 'main'
- 'term' 'problems' 'unlike' 'typhoon' 'totally' 'security' 'edsa'
- 'agricuture' 'didnt' 'prioritized' 'policy']
-pos - pos['coco' 'nila' 'farmers' 'lang' 'lalo' 'tulad' 'ibang' 'importation'
- 'bansa' 'sila' 'samar' 'eastern' 'hinayaan' 'louie' 'belmil' 'governo'
- 'pogi' 'inisep' 'naghihirap' 'nmin' 'gbyerno' 'pinahirap' 'mahihirap'
- 'kinabubuhay']
-neg - neg['kaya' 'talaga' 'soil' 'depends' 'mango' 'guimaras' 'taste']
-pos - pos['mahal' 'lang' 'philippine' 'kahit' 'alam' 'proud' 'sweetness' 'mangos'
- 'binibili' 'compares' 'texture' 'amoy']
-pos - neg['manny' 'government' 'piñol' 'kudos' 'productive' 'officials']
-pos - pos['true' 'vasha' 'quitua' 'search']
-pos - neg['good' 'luck']
-neg - neg['hope' 'manny' 'post' 'people' 'think' 'dont' 'help' 'support' 'family'
- 'farmers' 'bless' 'north' 'cotabato' 'great' 'thanks' 'deserve' 'land'
- 'benefit' 'program' 'finally' 'elect' 'public' 'pray' 'thing' 'project'
- 'continue' 'choose' 'kinds' 'self' 'centered' 'politicians' 'political'
- 'ambitions' 'read' 'previous' 'held' 'initiated' 'politicking' 'comes'
- 'fail' 'voting' 'relatives' 'succeed' 'office' 'politician' 'servant'
- 'contribute' 'prrds' 'administration' 'replying' 'frustrated' 'discredit'
- 'fishermens' 'hardwork']
-pos - pos['pauline' 'wooldridge' 'word']
-pos - neg['best' 'mango']
-pos - pos['price' 'help' 'farmers' 'buying' 'piñol' 'palay' 'important' 'raise']
-pos - pos['good']
-neg - neg['nyan' 'dami' 'patiño' 'reneeboy']
-pos - pos['dont' 'farmers' 'daming' 'lahat' 'pwede' 'drought' 'butas' 'assistance'
- 'parang' 'phils' 'develop' 'hndi' 'policy' 'karayum' 'pahirapan']
-pos - pos['good' 'news']
-pos - neg['like' 'pero' 'kaya' 'lang' 'walang' 'poor' 'magsasaka' 'news' 'gobyerno'
- 'true' 'thats' 'thing' 'tulong' 'puro' 'gawin' 'nilang' 'anti' 'media'
- 'accomplishment' 'fake' 'pekeng' 'tutuong' 'press' 'released' 'kayang'
- 'ipakita' 'social' 'scammer']
-pos - pos['people' 'years' 'products' 'health' 'palm' 'love' 'friends' 'stop'
- 'namin' 'walang' 'environment' 'possible' 'contribute' 'yung'
- 'protection' 'environmental' 'binibili' 'stopped' 'household'
- 'ingredient' 'educating' 'dangers' 'wants' 'ecosystems']
-pos - pos['like' 'working' 'administration' 'kudos' 'cabinet' 'transparency' 'hard']
-pos - pos['best' 'nila' 'dito' 'kasi' 'small' 'market' 'selling' 'costs'
- 'philippine' 'agad' 'gusto' 'native' 'ripe' 'mango' 'mangoes' 'phil'
- 'pakistan' 'thai' 'sweet' 'vienna' 'exotic' 'egypt' 'bihira' 'austria'
- 'maubos']
-pos - pos['working' 'hard']
-neg - pos['good' 'manny' 'luck' 'efforts']
-neg - neg['powers' 'farmers' 'para' 'agreed' 'connection' 'manipulate' 'year'
- 'lagi' 'silang' 'baon' 'utang' 'makapagsimula' 'tapos' 'walang' 'kita'
- 'umaasa' 'makakabawi' 'poor' 'farmer' 'deserve' 'mercy']
-pos - pos[]
-pos - neg['coconut' 'stop' 'water' 'problem' 'minute' 'farms' 'converted'
- 'drinkable' 'banana' 'reverse' 'facility' 'tagum' 'establishing'
- 'osmosis']
-neg - pos['good' 'news' 'denvi' 'cabrera']
-pos - pos['good' 'manny' 'know' 'pinol']
-pos - pos['thanks' 'copy']
-neg - neg['protect' 'local' 'government' 'business' 'foreign' 'order' 'taking'
- 'investors' 'important' 'country' 'thing' 'necessary' 'company'
- 'businesses' 'ownership' 'indonesia' 'imposes' 'restrictions'
- 'perspective' 'sizeable' 'stake' 'ease' 'addressing' 'managing'
- 'finances' 'owns']
-neg - neg['time' 'better' 'lang' 'secretary' 'luck' 'hehehe']
-pos - pos['need' 'solar' 'true' 'heads' 'pumping' 'properly' 'lloyd' 'steven'
- 'existence']
-neg - neg['macalma' 'reality' 'unanswered']
-pos - pos['good' 'tech']
-pos - pos['mangoes' 'phils' 'grown' 'beats' 'carabao']
-pos - pos[]
-pos - pos['kilo' 'pasalamat']
-neg - neg['need' 'years' 'support' 'lang' 'piñol' 'small' 'rice' 'solar' 'isang'
- 'season' 'water' 'aquifer' 'powered' 'filled' 'irrigation' 'william'
- 'impounding' 'impounded' 'list' 'supporting' 'projects' 'tried' 'worse'
- 'sustainable' 'strategic' 'implemented' 'iloilo' 'large' 'convinced'
- 'alcala' 'pursue' 'gestation' 'jalaur' 'gone' 'flashflood' 'sira'
- 'replenish' 'sink' 'holes' 'aquifers' 'seawater']
-pos - pos['lang' 'jahannae' 'melecio' 'laki' 'loboc' 'river' 'pangbalsa' 'turista']
-neg - neg['good' 'health' 'pres' 'duterte' 'governance' 'wonderful' 'birthday'
- 'rodrigo' 'wishing']
-neg - neg['good' 'protect' 'manny' 'price' 'post' 'people' 'dont' 'help' 'products'
- 'best' 'vote' 'bills' 'budget' 'support' 'copra' 'time' 'farmers' 'stop'
- 'agri' 'work' 'wish' 'traders' 'thanks' 'rice' 'thank' 'market'
- 'secretary' 'increase' 'rubber' 'page' 'power' 'reply' 'promote'
- 'neglected' 'congresman' 'senators' 'working' 'trying' 'practice'
- 'previous' 'replying' 'hardwork' 'left' 'alternative' 'works' 'fully'
- 'sector' 'despite' 'hardworking' 'raise' 'hard' 'charge' 'bash'
- 'progress' 'information' 'hectic' 'took' 'chance' 'comments' 'questions'
- 'concern' 'repetitive' 'bashing' 'answered' 'understnd' 'catch' 'decades'
- 'pcoo' 'dissemination' 'catching' 'staffs' 'headed' 'corn' 'anytime'
- 'greedy' 'forget' 'pass' 'laws' 'innovation']
-pos - neg['manny' 'pinol' 'great' 'situations' 'super' 'monolithic' 'dome'
- 'shelter' 'fellows' 'emergency' 'typhoon']
-pos - pos['worst' 'pero' 'kilo' 'lang' 'ngayon' 'halos' 'kopra' 'wala' 'panahon'
- 'naka' 'papa' 'kami' 'gumagawa' 'joel' 'aguilon' 'nakaranas' 'humantong'
- 'pagputol' 'lubi' 'mattad' 'pasahod' 'matira']
-pos - pos['congrats']
-pos - pos['manny' 'thank']
-pos - pos['manny']
-pos - pos['hope' 'think' 'kaya' 'market' 'point' 'naman' 'order' 'dami' 'given'
- 'victor' 'chico' 'mangoes' 'promotion' 'guimaras' 'constraints'
- 'disadvantage' 'sustaining' 'presence' 'tall' 'doable' 'considered'
- 'comparable' 'varieties' 'russia' 'benchmarked' 'protocola' 'mainland'
- 'hinahanap']
-pos - pos['presyo' 'rubber' 'pagka' 'sila' 'apil' 'kaau' 'debbie' 'leigh' 'delos'
- 'santos' 'swerti' 'dati' 'bagsak' 'mutaas' 'daghay' 'nmabaligya'
- 'rubberan' 'yuta']
-pos - pos['kasi' 'harvest' 'fresh' 'sila' 'kailangan' 'kaso' 'rodel' 'pedral'
- 'tumatangagap']
-pos - pos['good' 'pinol']
-neg - neg['ennie' 'estrada' 'logarta' 'yeah']
-pos - neg['manny' 'know' 'right' 'time' 'farmer' 'farm' 'produce' 'place'
- 'irrigation' 'plant' 'wells' 'deep' 'yield' 'river' 'drip' 'amazing'
- 'surprised' 'opinion' 'creek' 'intense' 'photosynthetic' 'activity'
- 'brought' 'summer' 'thrills' 'executed' 'allow' 'highest' 'pics'
- 'kalabasa' 'honestly']
-pos - pos['agree' 'solar' 'panels' 'producers' 'lots' 'china' 'countries' 'cheaper'
- 'gerardo' 'empleo' 'suello' 'compared']
-pos - pos['issue' 'implement' 'executive' 'order' 'rain' 'officials' 'projects'
- 'mayors' 'harvesting' 'mandate']
-pos - pos['farmers' 'check' 'invest' 'anybody' 'cropital' 'funded']
-pos - pos['industry' 'love' 'nation' 'food' 'agricultural' 'praying' 'sector'
- 'leading' 'real' 'salesmanship' 'penol' 'vibrant']
-pos - pos['think' 'process' 'fast' 'winding' 'manufactured' 'called'
- 'torispherical' 'sides' 'filament' 'strong' 'economical' 'naterial'
- 'composite' 'sandwiched' 'insulation']
-pos - pos['ella' 'arellano' 'yassss']
-pos - neg['budget' 'dapat' 'needs' 'tlaga' 'year' 'tayo' 'dami' 'project'
- 'maraming' 'irrigation' 'lugar' 'spis' 'ntin' 'sapat' 'nationwide'
- 'palagay' 'ingay' 'palagi' 'taasan']
-pos - pos['nila' 'buying' 'diay' 'previous' 'company' 'recovery' 'malaysia'
- 'delivery' 'joseph' 'giovanni' 'lumajen' 'gihapon' 'adto' 'eprocessed'
- 'ingon' 'iluto' 'unya' 'gimagic' 'basehen' 'didto' 'gidala' 'goma']
-pos - pos['delfin' 'mahinay' 'tama' 'dapit' 'amoa' 'naay' 'planta' 'perting'
- 'bahoa']
-neg - neg['lets' 'higher' 'water' 'practice' 'causes' 'soil' 'nutrients'
- 'temperature' 'field' 'holding' 'destroys' 'invite' 'structures'
- 'plowing' 'capaity' 'erroding' 'increases' 'greenhouse' 'gases'
- 'emittion' 'resulting' 'perma' 'culture' 'micro' 'organism']
-pos - pos['good' 'thank' 'antonio' 'gerundio' 'fast']
-pos - neg['kilo' 'nalang' 'late' 'hehe' 'amob' 'salaya']
-pos - pos['sana' 'matuloy']
-pos - neg['think' 'dont' 'best' 'nila' 'kaya' 'expensive' 'lang' 'lagi' 'market'
- 'galing' 'working' 'gusto' 'meet' 'mango' 'mangoes' 'guimaras' 'zambales'
- 'boss' 'hinog' 'palengke' 'hkonger' 'singaporean' 'expat' 'abudhabi'
- 'express' 'dismay' 'satisfaction' 'pasalubong' 'manggamg' 'dala' 'namen'
- 'husto']
-pos - neg['philippines' 'idea' 'gates' 'solving' 'poverty' 'eliminated']
-neg - pos['agree' 'stop' 'implementation' 'talks']
-pos - pos['good' 'time' 'pinol' 'secretary']
-neg - neg['bless' 'prrd' 'happy' 'birthday']
-pos - pos['coconut' 'good' 'industry' 'grip' 'price' 'photo' 'need' 'people'
- 'blame' 'support' 'copra' 'family' 'farmers' 'food' 'workers' 'agri'
- 'convert' 'future' 'trees' 'coconuts' 'soon' 'continue' 'going' 'coming'
- 'children' 'afraid' 'false' 'record' 'table' 'ahead' 'months' 'stopped'
- 'harvesting' 'lowest' 'lumber' 'hopes']
-neg - neg['price' 'need' 'products' 'farmers' 'mannypiñol' 'traders' 'poor'
- 'harvest' 'season' 'sell' 'idea' 'reason' 'cheap' 'money' 'planting'
- 'lend' 'forces' 'borrow' 'lenders' 'whyfarmers' 'remain']
-pos - pos['good' 'help' 'time' 'farmers']
-pos - pos['mahal' 'mura' 'kanilang' 'yung' 'company' 'russia' 'bihira' 'madami'
- 'renan' 'limbang' 'pyesas' 'binanggit' 'piyesa' 'subsidiary'
- 'kamaznewholland']
-pos - pos['hopefully' 'corruption' 'makikita' 'paparating' 'bwan']
-neg - neg['manny' 'philippines' 'salamat' 'bless' 'kaau']
-pos - pos['prices' 'thats' 'change' 'politics' 'politicizing']
-pos - pos['hindi' 'local' 'imported' 'sana' 'naman' 'halos' 'breed' 'kasama']
-pos - pos['manny' 'best' 'love' 'secretary' 'godbless' 'salute' 'prrd'
- 'agriculture' 'effort' 'cabinet' 'sector' 'hardworking' 'undying']
-pos - pos['fucking' 'crabs' 'cook']
-pos - pos['manny' 'dept' 'agriculture' 'happy' 'hardworking' 'admin' 'zero'
- 'accomplishment' 'fighting']
-neg - neg['people' 'govt' 'best' 'rene' 'work' 'corrupt' 'lemar' 'ramel' 'unfair'
- 'serve' 'hard' 'everybody' 'encounter' 'transactions' 'assume']
-pos - pos['bless']
-neg - neg['talaga' 'congrats' 'corrupt' 'leader' 'free']
-pos - pos['dynochickens']
-pos - pos['filipinos' 'price' 'know' 'right' 'copra' 'farmers' 'buying' 'pinol'
- 'uplift' 'long' 'palay' 'effort' 'public' 'servant' 'wrong' 'night'
- 'difference' 'angels' 'sacrifices' 'result' 'matter' 'built' 'efforts'
- 'lives' 'counts' 'article' 'posted' 'sleepless' 'count' 'crying' 'rome'
- 'wasn' 'brings' 'swearing' 'supporter' 'warned']
-pos - pos['giving' 'mahal' 'farmers' 'presyo' 'problema' 'needed' 'ibang' 'cause'
- 'root' 'wala' 'farming' 'problem' 'nasa' 'bakit' 'kahit' 'mean' 'pananim'
- 'assistance' 'addressing' 'parin' 'line' 'commodities' 'merkado'
- 'upstream' 'ubusin' 'kabundukan' 'downstream' 'iceberg']
-pos - pos[]
-pos - pos['protect' 'farmers' 'government' 'needs' 'intervention' 'locsl']
-pos - pos['manny' 'bless' 'pinol' 'thank' 'hardwork']
-neg - neg['dahil' 'palm' 'pero' 'para' 'kilo' 'lang' 'akong' 'presyo' 'taga' 'lalo'
- 'kasi' 'walang' 'kita' 'magsasaka' 'pati' 'nagugutom' 'buhay' 'pesos'
- 'ibang' 'trabaho' 'yung' 'wala' 'doon' 'nlang' 'gutom' 'kahit'
- 'kababayan' 'amin' 'samar' 'umalis' 'inyo' 'punta' 'nayan' 'months'
- 'maynila' 'kulang' 'copras' 'pambayad' 'inisip' 'pinagkukunan' 'hanap'
- 'coprahan' 'ipundar' 'nagcocopra' 'paghakot' 'aanhin' 'nawalan' 'pagbaba'
- 'masaklap' 'pinagkakakitaan' 'nanaman' 'maghanap' 'katulong' 'manlang'
- 'malagyan' 'tyan']
-pos - pos['correct' 'building' 'purpose' 'multi' 'type']
-pos - pos['hope' 'past' 'farmers' 'solar' 'benefit' 'long' 'secretary' 'water'
- 'implementation' 'agriculture' 'administration' 'source' 'powered' 'pump'
- 'natural' 'spis' 'lands' 'neglect' 'irrigate']
-neg - neg['time' 'great' 'congratulations' 'design' 'prrd' 'happy' 'kind'
- 'birthday']
-pos - pos['tama' 'thank' 'kayo' 'ismael' 'tabije']
-neg - neg['hindi' 'farmers' 'itong' 'nlang' 'haha' 'nakaupo' 'madalas' 'nakampi'
- 'nakikimema']
-pos - neg['water' 'irrigation' 'tubular' 'spray']
-pos - pos['manny' 'govt' 'support' 'para' 'piñol' 'lahat' 'thank' 'salute' 'prrd'
- 'effort' 'happy' 'inyong' 'untiring' 'bday' 'pagod']
-pos - pos['people' 'want' 'build' 'small' 'schools' 'water' 'given' 'public'
- 'enjoined' 'rainwater' 'impounding' 'dams' 'basins' 'tanks' 'wells'
- 'deep' 'property' 'subsidy' 'usage' 'impounded' 'reduce']
-pos - neg['price' 'know' 'need' 'help' 'break' 'local' 'farmers' 'supply'
- 'production' 'muna' 'import' 'imported' 'actions' 'bago' 'mercy' 'small'
- 'atin' 'harvest' 'ibang' 'lower' 'cost' 'taking' 'goods' 'vast' 'cause'
- 'availability' 'choice' 'sell' 'devastatingly' 'able' 'producers'
- 'sariling' 'mula' 'bansa']
-neg - neg['praying' 'success']
-pos - pos['coconut' 'price' 'like' 'know' 'hindi' 'palm' 'kung' 'farmers' 'tama'
- 'meat' 'dapat' 'imported' 'buying' 'rice' 'sure' 'market' 'nyan' 'maawa'
- 'magawa' 'read' 'wala' 'survive' 'dyan' 'slowly' 'sorry' 'pwesto'
- 'killing' 'cheanie' 'salacop' 'chicken' 'flooded' 'coments' 'peolple'
- 'paraan']
-pos - pos['manny' 'pinol' 'secretary' 'hahahahaha' 'aslum' 'bong']
-pos - pos['filipino' 'farmers' 'impose' 'higher' 'taxes' 'tariff' 'importers'
- 'onions' 'garlics' 'manner' 'live' 'prosperous' 'life' 'uplift' 'morale']
-neg - neg['taga' 'seeds' 'palay' 'mamigay' 'giblower' 'seedgrowers' 'kasabwat']
-pos - pos['sana']
-pos - pos['people' 'needs' 'countries' 'mainly' 'governments' 'responsive']
-pos - pos['philippine' 'mangoes' 'compares']
-neg - neg['congratulations']
-pos - pos['kung' 'para' 'wala' 'irrigation' 'pundo' 'kailangan' 'gumagamit'
- 'maintenance' 'service' 'kapag' 'ryan' 'villasor' 'painaga'
- 'makarunggala' 'ibinayad' 'maitustos' 'kaayusan' 'magbabayad' 'darating'
- 'pangmaintenance' 'magagamit' 'magpatuloy']
-pos - pos['ngayon' 'jerry' 'botial' 'flowering']
-pos - pos['minimize' 'solar' 'pwede' 'powered' 'irrigation' 'corruption']
-pos - pos['good' 'right' 'health' 'philippines' 'pres' 'duterte' 'blessed' 'dept'
- 'pray' 'safe' 'continued' 'lucky' 'loving' 'appointing' 'manning']
-neg - neg['like' 'post' 'years' 'supply' 'actually' 'solar' 'power' 'water' 'pumps'
- 'recent' 'bring' 'manufacturer' 'gerardo' 'pumping' 'controllers'
- 'traditional' 'motors' 'circulation' 'swimming' 'pools']
-pos - pos[]
-pos - pos['invest' 'technology' 'science' 'research' 'development']
-pos - pos['salamat' 'bless' 'maraming']
-neg - neg['copra' 'prices' 'changes']
-pos - pos['hope' 'protect' 'farmers' 'supply' 'consumers' 'storage' 'build'
- 'manipulate' 'small' 'facilities' 'prices' 'produce' 'increase' 'country'
- 'built' 'facility' 'msmes' 'cartels' 'decrease']
-pos - pos['coconut' 'need' 'post' 'people' 'lack' 'farmers' 'value' 'invest'
- 'business' 'farmer' 'deserve' 'thank' 'world' 'secretary' 'finally'
- 'department' 'stakeholders' 'question' 'happen' 'example' 'project'
- 'continue' 'gets' 'money' 'equipment' 'livelihood' 'miat' 'dualan'
- 'happened' 'ideas' 'ways' 'leaves' 'programs' 'real' 'review' 'person'
- 'suggest' 'capital' 'efforts' 'forget' 'taxpayers' 'foresight'
- 'implemented' 'frustrating' 'fisherman' 'treat' 'fishermen' 'expand'
- 'admire' 'academic' 'idealistic' 'practicality' 'application' 'reviewed'
- 'peer' 'checks' 'balances' 'wasting' 'bricks']
-pos - pos['actions' 'late']
-neg - pos['like' 'correct' 'talaga' 'tires' 'recently' 'example' 'company' 'formed'
- 'julces' 'tajale' 'tractors' 'newly' 'tire' 'featured']
-neg - neg['sana' 'thanks' 'sila' 'peter' 'simon' 'paul' 'gumising']
-pos - pos['good' 'manny' 'piñol' 'secretary' 'yeeey']
-pos - pos['agricultural' 'water' 'productivity' 'soil' 'rainwater' 'impounding'
- 'harvesting' 'investing' 'catchments' 'ponds' 'elements' 'sunlight'
- 'genetics']
-pos - pos['pero' 'kung' 'kaya' 'farmers' 'dapat' 'lang' 'kaysa' 'traders' 'walang'
- 'ngayon' 'palay' 'sila' 'dami' 'noon' 'kailangan' 'bakit' 'bumili'
- 'kwenta' 'chichiburichi' 'pisos' 'kuno' 'totoong' 'malasakit'
- 'pinapahirapan']
-neg - pos['plant' 'pics' 'papa' 'alive' 'visiting' 'giants']
-neg - neg['coconut' 'manny' 'coco' 'products' 'hindi' 'sugar' 'lang' 'market'
- 'ibang' 'water' 'drinks' 'merun' 'tayung' 'dried' 'vinegar' 'alcoholic'
- 'granulated' 'handicrafts' 'peat' 'coir' 'banana' 'chips']
-pos - pos['nila' 'presyo' 'murtha' 'alitaytayan' 'natin' 'kong' 'bansa' 'pano'
- 'ganyan' 'rodlfo' 'gabor' 'mapag' 'aaral' 'anak' 'famers' 'kalakaran'
- 'hoooooooooo']
-neg - pos['resigned']
-neg - pos['good' 'best' 'making' 'idea' 'happen']
-neg - pos[]
-pos - neg['sebastian' 'ivan' 'ulol']
-neg - neg['desert' 'bloom' 'someday']
-pos - pos['hope' 'quality' 'invest' 'kasi' 'farmer' 'baka' 'important' 'problem'
- 'machine' 'maintenance' 'basta' 'matibay' 'sake' 'equiping' 'phils'
- 'wise' 'tmtagal' 'worthty']
-neg - neg['consumption' 'water' 'technology' 'aquaponics' 'venturing' 'reducrd']
-pos - pos['good' 'manny' 'piñol' 'godbless' 'team']
-neg - neg['pinol' 'mabuhay' 'secretary' 'godbless']
-neg - neg['hope' 'model' 'everybody' 'role']
-pos - pos['time' 'long' 'knew']
-pos - pos['korek' 'dito' 'natin' 'kanilang' 'lasa' 'mangga' 'tuloy' 'catherine'
- 'parayno' 'melbourne' 'pangit' 'namimis']
-pos - pos['stop' 'government' 'areas' 'land' 'produce' 'cost' 'increase' 'area'
- 'water' 'public' 'river' 'denr' 'protected' 'specially' 'parang' 'clear'
- 'lumber' 'watershed' 'onerously' 'delienation' 'issuing' 'titles'
- 'bodies' 'stream' 'brooks' 'sistema' 'prohibitive' 'substitute']
-pos - pos['good' 'news']
-pos - pos['tell' 'president' 'educate']
-neg - neg['comrade' 'jurisprudence']
-neg - pos['pero' 'kung' 'kaya' 'dapat' 'check' 'lang' 'lalo' 'lahat' 'kasi'
- 'walang' 'nman' 'naman' 'bansa' 'wala' 'kahit' 'pagtatanim' 'bukid'
- 'malaking' 'rebelde' 'sapat' 'kalsada' 'magutom' 'matyaga' 'katatakutang'
- 'napansin' 'jordan' 'napakaliit' 'nakakapagtanim' 'papano']
-neg - pos[]
-neg - neg['manny' 'piñol' 'israel' 'irrigation' 'bakit' 'drip' 'adap']
-pos - neg['good' 'philippines' 'bless' 'news' 'luck']
-pos - pos['bless']
-pos - pos['middle' 'oligarchs' 'feudalism' 'ages' 'ogmatic' 'parliamentary']
-pos - pos['amazing']
-neg - neg['price' 'right' 'want' 'family' 'farmers' 'supply' 'product' 'government'
- 'farm' 'cost' 'sell' 'farming' 'crops' 'plant' 'balance' 'cover'
- 'natural' 'understand' 'demand' 'anthony' 'including' 'spent' 'seedlings'
- 'labor' 'invested' 'counting' 'calamities' 'struck' 'rats' 'flooding'
- 'timing']
-pos - neg['maganda' 'region' 'palay' 'sell' 'plant' 'free' 'drying' 'producer']
-pos - pos['remember' 'manuel' 'luis' 'madres']
-pos - pos['want' 'farmers' 'para' 'kasi' 'life' 'uplift' 'benefits' 'sila' 'nang'
- 'secpiñol' 'calamity' 'niño' 'funds' 'mawawalan' 'pondo' 'tuwing'
- 'obviously']
-pos - neg['good' 'industry' 'like' 'local' 'import' 'needs' 'onion' 'total' 'looks'
- 'sustain']
-pos - pos['price' 'buying' 'year' 'increase' 'rubber' 'successful' 'hoping']
-pos - pos['pero' 'pinoy' 'lang' 'pesos' 'talaga' 'wont' 'follow' 'happen' 'diri'
- 'promise' 'doubt' 'gonzales' 'likely' 'suggestions' 'graabi' 'negros'
- 'usesless']
-neg - neg['cooking' 'produced' 'share' 'filipino' 'food' 'rene' 'pamintuan' 'sure'
- 'philippine' 'owned' 'corporation' 'information' 'companies' 'user'
- 'restaurant' 'chains' 'claiming' 'believer']
-neg - neg['support' 'government' 'farmer' 'possible' 'mindanaoan' 'intervene']
-pos - pos['johnny' 'bobadilla' 'korek']
-pos - pos['mahal' 'buti' 'palay' 'yung' 'siguro' 'inyo' 'fiel' 'medyu' 'bilihan']
-pos - pos['true' 'soil' 'farmboy' 'coloma' 'rejuvination']
-pos - pos['consumers' 'cost' 'water' 'places' 'cheaper' 'coming' 'distance'
- 'europe' 'compared' 'south' 'affordable' 'treatment' 'export' 'grow'
- 'variety' 'carabao' 'mangos' 'mexico' 'half' 'european' 'travel' 'landed'
- 'veracruz' 'couldn' 'wouldn' 'stand']
-pos - pos['coco' 'farmers' 'priority']
-pos - pos['good' 'news']
-pos - pos['hope']
-pos - pos['good' 'time' 'cotabato' 'work' 'natin' 'ngayon' 'farm' 'secretary'
- 'remember' 'plant' 'equipment' 'kababayan' 'opportunity' 'invite'
- 'assembly' 'tractors' 'pinolwhenbhe' 'governor' 'investor' 'korean'
- 'mistaken' 'maglagay' 'sprayer' 'mini' 'displayed' 'kidapawan' 'city']
-pos - pos['good' 'manny' 'piñol']
-pos - neg['good' 'manny' 'piñol']
-neg - neg['respect' 'perspective' 'madam' 'ponga' 'garzon']
-pos - pos['opportunity' 'wide' 'boss' 'eugene' 'palomo']
-pos - neg['help' 'farmers' 'build' 'goods' 'super' 'processing' 'logistics'
- 'national' 'scale' 'picking' 'delivering' 'storing' 'manufacturing'
- 'packing' 'airfreighting' 'oceanfreighting' 'exporting' 'trading'
- 'worldwide']
-pos - pos['implementation' 'existing' 'proposal' 'rogelio' 'cabiladas' 'whatsoever'
- 'condone' 'mere' 'hearsay']
-neg - neg['hope' 'baka' 'natin' 'nlang' 'believe' 'jordan' 'miss' 'hayaan' 'obrien'
- 'motto' 'massagan' 'igalang']
-pos - pos['think' 'nation' 'poor' 'suffering' 'young' 'agriculture' 'country'
- 'reason' 'corruption' 'technology' 'citizen']
-pos - pos['like' 'philippines' 'sana' 'dito' 'solar' 'panels' 'pilipinas' 'tayong'
- 'installation' 'nagsama' 'sama' 'solarista' 'denz' 'ortiz' 'othwra'
- 'engr' 'romero' 'consultant' 'brisenio']
-pos - pos['hope' 'needs' 'things' 'receive' 'isabela']
-pos - pos['hope' 'ajrah' 'khalil' 'yeap' 'realize' 'bigger' 'picture' 'ideas']
-neg - neg['coconut' 'cooking' 'toxic' 'canola' 'tama' 'lalo' 'namin' 'talaga'
- 'mula' 'young' 'pinas' 'nang' 'yung' 'noon' 'gamit' 'safe' 'pang' 'sabi'
- 'pinaka' 'living' 'niya' 'oils' 'vege' 'sinabi' 'visitors' 'founder'
- 'essential' 'suerte' 'tinapon' 'natirang']
-pos - neg['muna' 'private' 'bago' 'farmer' 'comment' 'provinces' 'search' 'visit'
- 'progressive' 'fiel' 'troll' 'employee' 'website' 'dilawan' 'oppositions']
-pos - neg['know' 'means' 'willing' 'invest' 'training' 'needs' 'romeo' 'campos'
- 'able' 'money' 'afford']
-pos - pos['right']
-pos - pos['good']
-pos - pos['good']
-pos - pos['piñol' 'thanks' 'pesos']
-pos - pos['protect' 'locally' 'produced' 'onion' 'investigate' 'prosecute'
- 'anomalous' 'artificially' 'created' 'situations']
-pos - pos['know' 'business' 'late' 'land' 'started' 'rubber' 'trees' 'chain'
- 'later' 'mindanao' 'planting' 'forests' 'planted' 'continued' 'owned'
- 'marcos' 'businesses' 'paper' 'manila' 'promise' 'called' 'grandfather'
- 'logging' 'concessions' 'reforestrated' 'denuded' 'hans' 'menzi'
- 'internation' 'ashes' 'scattered' 'oldtimer' 'swiss' 'bulletin' 'today'
- 'liwayway' 'publishing' 'father' 'bongbong' 'heirs' 'heard' 'folks'
- 'moved' 'homestead' 'grants']
-pos - pos['coconut' 'price' 'help' 'surely' 'farmers' 'prioritize' 'kilo' 'sold'
- 'year' 'market' 'pesos' 'huge' 'remember' 'drastically' 'went']
-pos - pos['hahaha' 'mills' 'maynalang']
-neg - neg[]
-pos - neg['post' 'people' 'time' 'farmers' 'value' 'consumers' 'storage'
- 'agricultural' 'harvest' 'directly' 'finally' 'middle' 'middlemen'
- 'chain' 'trading' 'planting' 'technology' 'techniques' 'marketing' 'link'
- 'number' 'cartels' 'harvesting' 'dismantle' 'limiting' 'empowering'
- 'functions' 'aside' 'improving']
-pos - pos['pinol' 'resign']
-pos - pos['know' 'place' 'bernard' 'francisco']
-neg - neg['dahil' 'kung' 'nila' 'kaya' 'para' 'correct' 'lang' 'ayaw' 'silang'
- 'walang' 'meron' 'nakikita' 'natin' 'foods' 'talaga' 'power' 'taas'
- 'kanilang' 'sila' 'ginagamit' 'patuloy' 'kailangan' 'plant' 'bataan'
- 'nuclear' 'bnpp' 'tubig' 'cabinets' 'peter' 'sinata' 'japan' 'wrong'
- 'nasa' 'miter' 'tsunami' 'lakas' 'earthquake' 'intensity' 'napaulat'
- 'taong' 'namatay' 'radiations' 'pumatay' 'doon' 'baha' 'kumpara' 'abutin'
- 'aabot' 'lindol' 'gunaw' 'napo' 'mundo' 'bukas' 'sarado' 'masama'
- 'kalusugan' 'bakit' 'gumagamit' 'adviser' 'leader' 'pusong' 'makatao'
- 'nlang' 'nakikitang' 'namamatay' 'gutom' 'mamayan' 'gumawa' 'malinis'
- 'sufficient' 'cheaper' 'energy' 'sources' 'makatunaw' 'metal' 'gagamitin'
- 'tools' 'equipment' 'company' 'sasakyan' 'pagawa']
-pos - pos['nice']
-pos - pos['program' 'happen' 'spis' 'legacy' 'generation']
-neg - neg['lang' 'sila' 'damo' 'hikay' 'laban' 'nahisa' 'proyekto']
-neg - neg['coconut' 'daily' 'price' 'like' 'know' 'fair' 'giving' 'products'
- 'farmers' 'instead' 'healthy' 'food' 'philippines' 'government'
- 'mannypiñol' 'prices' 'world' 'cause' 'promote' 'schools' 'buko'
- 'advertised' 'trade' 'existing' 'public' 'push' 'offer' 'countries'
- 'europe' 'promoted' 'called' 'juices' 'companies' 'germany' 'consumed'
- 'pure' 'grams' 'euros' 'nutritional' 'addition' 'organized' 'shops'
- 'seal' 'promotes' 'deserved' 'gatherings' 'patronizing' 'alien' 'coke']
-pos - pos['nila' 'sana' 'dito' 'bili' 'atin' 'yong' 'parin' 'madam' 'buyer' 'kaso'
- 'sigrid' 'dickerson' 'ganon']
-pos - pos['good' 'manny' 'pinol']
-neg - neg['secretary' 'salute' 'hardworking']
-neg - neg[]
-neg - pos['coco' 'need' 'time' 'philippines' 'huge' 'taking' 'supplier' 'hard'
- 'peat' 'export']
-pos - pos['manny' 'pinol' 'comment']
-pos - neg['mark' 'gamot' 'mango' 'beat' 'garcia' 'lasang']
-pos - pos['right']
-neg - neg['manny' 'thank' 'power']
-neg - neg['coconut' 'hope' 'price' 'increase']
-neg - pos['good' 'palm' 'suggestion' 'jobs' 'bantayan' 'environment' 'friendly']
-pos - pos['price' 'local' 'farmers' 'sold' 'sana' 'traders' 'onions' 'onion' 'late'
- 'benefit' 'produce' 'trader' 'order' 'importation' 'ones' 'hands' 'goes'
- 'result' 'came' 'event' 'issued' 'earlier' 'lifted' 'farners' 'ironic'
- 'idiotic' 'rejoicing']
-pos - neg['protect' 'filipino' 'farmers' 'pinol' 'dodskie' 'daygunla']
-pos - neg['pero' 'kung' 'dapat' 'solution' 'wlang' 'kasi' 'solusyon' 'natin' 'yang'
- 'power' 'prrd' 'agriculture' 'kapit' 'alam' 'corruption' 'nlng'
- 'officials' 'sector' 'mahirap' 'science' 'progress' 'niya' 'serving'
- 'madaling' 'hwag' 'kaso' 'provlema' 'rocket' 'kahut' 'guzto' 'mangyari'
- 'talga' 'zolusyon' 'maryosep' 'gnon' 'magrwsign' 'pwesto' 'lumang'
- 'tugrugin' 'pleasure' 'appointong' 'nahihiya' 'involving' 'nangyayari']
-neg - pos['limited' 'like' 'hindi' 'dahil' 'kung' 'kaya' 'friends' 'lang' 'willing'
- 'akong' 'pong' 'lahat' 'buhay' 'masaya' 'kong' 'available' 'long'
- 'future' 'kayo' 'news' 'page' 'comment' 'trees' 'aware' 'kanilang'
- 'follow' 'question' 'chat' 'recipient' 'longer' 'inyong' 'wala' 'gusto'
- 'distribution' 'free' 'list' 'wait' 'complete' 'updated' 'fully'
- 'committed' 'mango' 'include' 'fruit' 'address' 'clay' 'torres'
- 'makatanim' 'mangoming' 'bakuran' 'ipaabot' 'makapagshare' 'inyo'
- 'scions' 'pagdugtong' 'rootstocks' 'grafting' 'bearing' 'plantation'
- 'mapagbigyan' 'sabay' 'batch' 'persons' 'requested' 'february' 'july'
- 'ayoko' 'magpromise' 'matutupad' 'ipahintulot' 'panginoon' 'nandyan'
- 'itutuloy' 'glad' 'contact' 'number' 'required' 'note' 'limit'
- 'recipients' 'related' 'click' 'highlights' 'maria' 'socorro'
- 'modequillo' 'bodiongan' 'posts' 'messenger']
-neg - pos['copy' 'follow' 'thing' 'technology' 'nowadays' 'paste' 'israelites']
-pos - pos['nice']
-pos - pos['farmers' 'dapat' 'government' 'priority' 'storage' 'controlled' 'tapos'
- 'cold' 'solar' 'trader' 'powered' 'indi' 'magpatayo']
-neg - neg['poor' 'tessie' 'tekla' 'anti' 'sigurado' 'bulag' 'bingi']
-pos - pos['johnny' 'bobadilla' 'agree']
-neg - pos['endeavor']
-pos - pos['consumers' 'smart' 'reason' 'admit' 'inalienable' 'programming' 'stands'
- 'sucked' 'black' 'hole' 'relationships' 'tango']
-neg - neg['dont' 'farmers' 'materials' 'lang' 'needs' 'facilities' 'processing'
- 'plants' 'logistics' 'packing' 'useless' 'works' 'talk' 'export'
- 'markets' 'common' 'ingay' 'porma' 'accreditation' 'certifications'
- 'critical' 'toll']
-pos - neg['local' 'working' 'include' 'mechanical' 'attachments' 'fabricators']
-pos - pos['good']
-neg - neg['govt' 'hindi' 'pero' 'para' 'ulan' 'pera' 'natin' 'tayo' 'nagkaproblema'
- 'pinas' 'sila' 'water' 'source' 'irrigation' 'tubig' 'nasa' 'doon' 'baha'
- 'singapore' 'gamitin' 'puro' 'officials' 'basta' 'kadami' 'malaysia'
- 'kaso' 'talga' 'maryosep' 'utak' 'potable' 'eveyyear' 'kungdi' 'talgang'
- 'nganga' 'mapalocal' 'natl' 'pinagtatawanan' 'kumukuha' 'pina' 'aawayan'
- 'puntang' 'inabanga' 'bohol' 'deretso' 'dagst' 'manlng' 'officcials'
- 'nagtap' 'niyan' 'syudad']
-neg - pos['hindi' 'pero' 'kung' 'nila' 'correct' 'traders' 'bili' 'talaga' 'palay'
- 'balance' 'miat' 'dualan' 'mais' 'nyog' 'isipin' 'napakamura' 'buwis'
- 'taon' 'ngtatax' 'kikitain']
-pos - pos['manny' 'para' 'pinol' 'mannypiñol' 'presyo' 'ecija' 'bukid' 'puro'
- 'nmin' 'cbuyas' 'neuva' 'libot' 'mbato' 'tignan' 'npababa' 'subukan'
- 'mkita']
-pos - neg['naman' 'power' 'wowww' 'mango' 'growers' 'phil' 'nakakaproud']
-pos - pos['best']
-pos - neg['manny' 'best']
-pos - neg['kilo' 'mannypiñol' 'jose' 'mindoro' 'dito' 'ngaun' 'pesos' 'office'
- 'nlng' 'amin' 'staff' 'dati' 'rose' 'husband' 'aniñon' 'renzyrhex'
- 'domingo' 'niong' 'amas' 'kuha' 'smin']
-pos - pos['great']
-pos - pos['coconut' 'farmers' 'save' 'rice']
-pos - pos['industry' 'fair' 'kung' 'farmers' 'instead' 'desert' 'materials' 'lang'
- 'mannypiñol' 'presyo' 'lalo' 'ulan' 'tamang' 'problema' 'walang' 'nman'
- 'land' 'tayo' 'mabuti' 'farm' 'naman' 'weather' 'yung' 'farming' 'tubig'
- 'things' 'nlang' 'marketing' 'lupa' 'tpos' 'iimport' 'businessmen'
- 'justice' 'nawala' 'kpag' 'dhil' 'katulad' 'ilalim' 'elniño' 'pgbibigyan'
- 'nabili' 'nasusunod' 'mgbebenta' 'presyuhan' 'cries' 'palawakin']
-pos - pos['manny' 'people' 'govt' 'farmers' 'doctors' 'politicians' 'inspiration'
- 'goliath' 'brainless' 'replaced' 'engineers' 'technologist' 'scientist']
-neg - neg['price' 'dont' 'help' 'copra' 'better' 'local' 'consumers' 'buying'
- 'kilo' 'work' 'market' 'selling' 'dictate']
-pos - pos['kaya' 'para' 'kasi' 'baka' 'natin' 'bansa' 'produkto' 'practice'
- 'normal' 'ganun' 'kanila' 'maayus' 'usap' 'dinadala' 'kadali' 'tayu'
- 'rumesbak' 'nakikipag' 'legal' 'maapektuhan']
-pos - pos['price' 'mannypiñol' 'sana' 'ngaun' 'pickles' 'maliliit' 'magsaysay'
- 'mapansin']
-pos - pos['high' 'mannypinol' 'able' 'getting' 'philippine' 'recently' 'middle'
- 'country' 'demand' 'technology' 'opportunity' 'mangoes' 'fruits' 'saudi'
- 'arabia' 'talk' 'export' 'east' 'ship' 'diplomat' 'consulate' 'mentioned'
- 'passing' 'unfortunately' 'spoilage' 'exist' 'figure' 'overripe']
-pos - pos['govt' 'pero' 'kung' 'farmers' 'para' 'presyo' 'ayaw' 'wlang' 'lahat'
- 'private' 'solusyon' 'naman' 'area' 'sila' 'saan' 'doon' 'bakit'
- 'gayahin' 'nlng' 'bumili' 'nahihiya' 'identified' 'nagpoprodu' 'gulay'
- 'bimili' 'wheelers' 'traderz' 'payagang' 'directa' 'uniform' 'napakaayos'
- 'mangagagaya' 'namangaeoffer' 'magandang']
-pos - pos['thnx']
-neg - pos['lang' 'foreign' 'country' 'company' 'kahit' 'gabriel' 'reverse' 'favor']
-pos - pos['dito' 'namin' 'puro' 'gerardo' 'empleo' 'suello' 'politika' 'leaders']
-pos - neg['coconut' 'industry' 'coco' 'people' 'products' 'filipino' 'government'
- 'invest' 'philippine' 'sources' 'company' 'massive' 'usage' 'based'
- 'chinese' 'discover' 'known' 'corporation' 'tapped' 'university' 'presto'
- 'came' 'discoveries' 'utilized' 'dominating' 'bureau' 'investments']
-pos - pos['farmers' 'rice' 'produce' 'future' 'amazing' 'phil' 'harvesters'
- 'planters']
-neg - neg['government' 'storage' 'build' 'daming' 'cold' 'solar' 'panels'
- 'strategic' 'pondo' 'grid' 'tied' 'locations' 'gobyernong' 'nagagamit']
-pos - pos['needed' 'logistics' 'packaging' 'phytosanitary']
-neg - pos['water' 'source' 'irrigation' 'money' 'digging' 'canals']
-pos - pos['time']
-pos - pos['market' 'world' 'china' 'flood']
-neg - neg['good' 'like' 'people' 'think' 'past' 'open' 'bills' 'want' 'filipino'
- 'love' 'expensive' 'desert' 'food' 'philippines' 'government' 'lang'
- 'build' 'private' 'life' 'small' 'foods' 'farm' 'world' 'solve' 'created'
- 'news' 'power' 'jobs' 'fresh' 'water' 'country' 'public' 'care' 'compare'
- 'dubai' 'administration' 'desalination' 'president' 'plant' 'problem'
- 'shortage' 'electricity' 'bataan' 'nuclear' 'parts' 'bnpp' 'solved'
- 'look' 'feed' 'clean' 'cheap' 'china' 'billions' 'money' 'medicines'
- 'minsan' 'mangungutang' 'huwag' 'maputalan' 'ilaw' 'tubig' 'difficult'
- 'kapit' 'patalim' 'going' 'countries' 'safe' 'committing' 'crime'
- 'prostitution' 'utilities' 'sectors' 'hearths' 'cares' 'locky' 'cabinets'
- 'members' 'hearth' 'oligarchs' 'things' 'reasons' 'chaos']
-neg - neg['philippines' 'lucky']
-pos - pos['best' 'mango' 'guimaras']
-pos - pos['comrade' 'jurisprudence']
-pos - pos['kaya' 'walang' 'tubig' 'pala' 'libre' 'marilyn' 'tuscano' 'bulaay'
- 'herrero' 'agos' 'malalapit' 'umaagos']
-pos - pos['consumption' 'want' 'work' 'foods' 'idea' 'understand' 'farms'
- 'proposal' 'unfair' 'grow' 'reject' 'thegovernment' 'counterparting']
-pos - pos['support' 'kung' 'farmers' 'para' 'materials' 'ganyang' 'promote' 'nang'
- 'maraming' 'said' 'planting' 'come' 'demand' 'talagang' 'based' 'mismo'
- 'pananim' 'varieties' 'variety' 'masarap' 'soulad' 'creates' 'gaano'
- 'kadami' 'nagpapakita' 'interes' 'magkaroon' 'propagation' 'person'
- 'beses' 'nasunog' 'unproven' 'maghahanap' 'happens']
-neg - pos['bless' 'government' 'increase' 'encourage' 'follow' 'agriculture'
- 'country' 'example' 'improve' 'tribe' 'sector' 'nowadays' 'leadership'
- 'official' 'rarely' 'prosper']
-pos - neg['manny' 'price' 'mura' 'farmers' 'marami' 'ngaun' 'cost' 'yong' 'project'
- 'gamit' 'makinabang' 'parang' 'review' 'unlike' 'rduce']
-pos - pos['good' 'idea' 'mary' 'dabalos' 'rabadon']
-pos - pos['natin' 'produkto' 'push']
-pos - pos['people' 'poor' 'rice' 'pdaf' 'corruption' 'case' 'isolated' 'copras']
-neg - neg['dome' 'survived' 'atomic' 'blast' 'http' 'visithiroshima'
- 'world_heritage' 'a_bomb_dome']
-neg - pos['correct' 'mango' 'located' 'sweet' 'elena' 'star' 'bayto' 'cruzzambales']
-pos - pos['support' 'nation' 'solution' 'dito' 'marami' 'building' 'idea'
- 'contribute' 'ring' 'feasible' 'iisip' 'talangkang' 'nagcocomments'
- 'shut']
-pos - pos['piñol' 'management' 'narrative' 'clarita' 'carlos' 'mentioned'
- 'deforestation' 'surprisingly' 'green' 'infrastructure' 'watershed']
-pos - pos['secretary' 'hardworking' 'piece' 'written']
-pos - pos['philippines' 'photos' 'mangoes' 'sweet' 'sweeter' 'kuwait' 'stores'
- 'longing']
-pos - pos['problem' 'discipline']
-neg - pos['manny' 'hail' 'utmost' 'respect']
-pos - pos['trees' 'plant']
-pos - pos['farm' 'ibang' 'region' 'pilipinas' 'encourage' 'nang' 'poultry' 'breed'
- 'snaag' 'raiser' 'breeds']
-pos - pos['hope' 'philippines' 'natural' 'disaster' 'typhoon' 'withstand'
- 'magnitude' 'earthquakes']
-pos - pos['price' 'coco' 'need' 'years' 'farmers' 'buying' 'lang' 'mercy' 'pesos'
- 'grabe' 'ngayon' 'naman' 'increase' 'posting' 'mindanao' 'gutom' 'puro'
- 'result' 'parin' 'hanggang' 'coopra']
-pos - pos['hope' 'like' 'piñol' 'thank' 'agricultural' 'sustain' 'finally'
- 'productivity' 'farming' 'enhance' 'technology' 'niño' 'having'
- 'proactive' 'stance' 'disasters' 'persistence' 'practices' 'embrace']
-neg - neg['good' 'secretary' 'working']
-pos - pos['coconut' 'farmers' 'hopefully' 'disappointed']
-pos - pos[]
-pos - pos['good' 'salute']
-pos - pos['jigs' 'dolores' 'ignacio' 'amen']
-pos - pos['daghan' 'nesson' 'binobo' 'malipay']
-neg - neg['years' 'vote' 'hindi' 'local' 'kaya' 'para' 'lahat' 'walang' 'nman'
- 'tayo' 'pwede' 'agad' 'gusto' 'corruption' 'niyo' 'wisely' 'took'
- 'diritso' 'mabigyan' 'mabago' 'stastart' 'plng']
-pos - pos['manny' 'products' 'filipino' 'bless' 'work' 'great' 'nice' 'telling'
- 'exporting' 'partner' 'proud' 'mango' 'mangoes' 'russian' 'russia'
- 'taste' 'proudly' 'australia']
-neg - neg['palm' 'mura' 'tama' 'government' 'walang' 'farmer' 'nman' 'magsasaka'
- 'kong' 'kopra' 'bakit' 'kababayan' 'gaya' 'pano' 'nating' 'baba'
- 'results' 'iimport' 'gaganahan' 'sagana' 'kokopra' 'pagmamahal']
-pos - pos['lugi' 'mura' 'sobrang' 'talaga' 'city' 'fiel' 'agusan' 'bayugan'
- 'trento']
-neg - neg['implement' 'country' 'adopt' 'learm' 'knowledge']
-pos - pos['manny' 'giving' 'products' 'pinoy' 'philippines' 'mannypiñol' 'training'
- 'bago' 'natin' 'mababawasan' 'malaki' 'bansa' 'pagka' 'pwede' 'country'
- 'office' 'services' 'crops' 'proud' 'gawing' 'bang' 'pakipropose' 'poea'
- 'immigration' 'ambassadors' 'ating' 'ofws' 'proper' 'pilipinos' 'umalis'
- 'premium' 'colonial' 'mentality' 'nating' 'upang' 'tangkilikin' 'lokal']
-pos - pos['need' 'hindi' 'kaya' 'farmers' 'consumers' 'lang' 'mannypiñol' 'gawa'
- 'natin' 'mark' 'arman' 'aquino' 'napipilitang' 'ibenta' 'magsasaka'
- 'land' 'developers' 'palakasin' 'agrikultura' 'diyan' 'nanggagaling'
- 'pagkain' 'building' 'imprastraktura' 'mapapakain' 'tayo' 'ipagbawal'
- 'pagbenta' 'lupang' 'sakahan' 'bigyan' 'suporta' 'pinansiyal' 'pati'
- 'additional' 'kagamitan' 'foods' 'prices' 'market' 'mababawasan'
- 'nagugutom' 'benefit']
-pos - pos['hope' 'industry' 'coco' 'returned' 'right' 'need' 'budget' 'support'
- 'vision' 'francis' 'rivera' 'direction' 'thats' 'pray' 'release']
-pos - pos[]
-pos - pos['good' 'manny' 'government' 'power']
-pos - neg['like' 'copra' 'onions' 'rice' 'convert' 'palay' 'plant' 'cheap'
- 'irrigated' 'lands']
-pos - pos['bliss']
-neg - neg['industry' 'manny' 'coco' 'returned' 'dont' 'govt' 'initiative' 'past'
- 'years' 'best' 'budget' 'time' 'farmers' 'poor' 'sadly' 'bonnie' 'javier'
- 'insist' 'neglected' 'authorities' 'divert' 'kopra' 'vision' 'finally'
- 'venture' 'atleast' 'trust' 'accomplish']
-pos - pos['coconut' 'milk' 'product' 'bless' 'makes' 'fresh' 'night' 'effective'
- 'soft' 'grated' 'useful' 'hair' 'scalp' 'treatment' 'shampoo' 'body'
- 'scrub' 'skin' 'smooth']
-pos - pos[]
-pos - pos['pinol' 'kudos' 'proud']
-pos - pos['pero' 'kaya' 'mannypiñol' 'namin' 'sobrang' 'bago' 'baka' 'bigyan'
- 'produce' 'palay' 'maraming' 'irrigation' 'amin' 'pumping' 'isabela'
- 'kami' 'hirap' 'puede' 'gamu' 'layo' 'magat' 'dalawang' 'station'
- 'dumaan' 'makapag']
-neg - neg['products' 'philippines' 'higher' 'agricultural' 'agriculture' 'country'
- 'compare' 'reality' 'definitely' 'defined' 'facing']
-pos - neg['products' 'agri' 'buying' 'kilo' 'tayo' 'ngayon' 'ibang' 'palay' 'pang'
- 'puro' 'parin' 'mataas' 'branch' 'masipag' 'reklamo']
-pos - pos['coconut' 'price' 'copra' 'high' 'pero' 'nila' 'para' 'supply' 'planta'
- 'stop' 'buying' 'dito' 'ayaw' 'kasi' 'buyers' 'meron' 'baka' 'ibang'
- 'selling' 'directly' 'investors' 'sila' 'yung' 'plant' 'gumawa' 'narin'
- 'bigay' 'samin' 'competitive' 'millers' 'kumuha' 'protecting'
- 'businessmen' 'makakapag' 'desiccated' 'nagshift']
-pos - neg['super']
-pos - pos['best' 'solution' 'trees' 'plant']
-neg - pos['bless' 'work' 'pinol' 'hard' 'truly' 'pays']
-neg - neg['congrats']
-pos - pos['nila' 'mannypiñol' 'lahat' 'nman' 'problima' 'irrigation' 'free' 'puro'
- 'amin' 'sultan' 'kudarat' 'lupa' 'drainage' 'pinapabayaan' 'malapit'
- 'patubeg' 'isulan' 'canal' 'marumi' 'kagaya' 'barado']
-pos - pos['people' 'want' 'secretary' 'heart' 'whats' 'thankful']
-pos - pos['thank']
-neg - neg['coconut' 'good' 'filipinos' 'help' 'health' 'palm' 'canola' 'farmers'
- 'healthy' 'importation' 'causing' 'improve' 'problems' 'conducted'
- 'researches']
-pos - pos['problem' 'mango' 'main' 'suspend' 'ripening']
-neg - neg['praise' 'ryan' 'sorilla']
-pos - pos['healthy' 'product' 'means' 'market' 'stay' 'progress']
-neg - neg['lugi' 'palm' 'kaya' 'delfin' 'mahinay' 'kapatid' 'malabong' 'negosyo']
-pos - pos['manny' 'salamat']
-pos - pos['coconut' 'like' 'people' 'time' 'philippines' 'government' 'farmer'
- 'example' 'cure' 'countries' 'free' 'especially' 'corruption' 'seedlings'
- 'worked' 'farms' 'ordinary' 'gone' 'leprosy']
-pos - pos['help' 'open' 'farmers' 'cartel' 'storage' 'cold' 'neutralise' 'small'
- 'form' 'collective' 'federation' 'negotiate' 'foreign' 'buyers']
-pos - pos['better' 'cost' 'coconuts' 'country' 'mango' 'mangoes' 'fruits' 'asia'
- 'taste' 'conversation' 'german' 'importer' 'transported' 'plane' 'ship']
-pos - neg['coconut' 'price' 'local' 'stop' 'importation' 'indonesia' 'affects']
-pos - pos['poor' 'governance' 'lacks' 'bohol']
-pos - pos['consider' 'copra' 'palm' 'local' 'business' 'impose' 'huge' 'export'
- 'killing']
-pos - pos['initiative' 'best' 'high' 'piñol' 'talaga' 'secretary' 'bravo'
- 'previous' 'comes' 'productive' 'bukid' 'hands' 'innovative'
- 'secretaries' 'busiest' 'industrious' 'intelligent' 'articulate' 'honest'
- 'helpful' 'humble' 'philipines' 'accomplishments' 'laking']
-pos - pos['manny' 'whipping' 'manong']
-pos - pos['support' 'government' 'successful' 'philippine' 'agriculture'
- 'countries' 'request' 'illustrated']
-pos - pos['best' 'support' 'want' 'farmers' 'nation' 'philippines' 'work' 'build'
- 'basic' 'private' 'year' 'facilities' 'farm' 'world' 'future'
- 'philippine' 'thailand' 'increasing' 'fresh' 'organic' 'water' 'follow'
- 'packing' 'countries' 'japan' 'wells' 'deep' 'impact' 'enormous' 'apart'
- 'receive' 'creation' 'technology' 'farms' 'fully' 'compared' 'investment'
- 'mango' 'properly' 'main' 'despite' 'funded' 'research' 'development'
- 'dream' 'respect' 'economic' 'talk' 'export' 'capability' 'international'
- 'guimaras' 'thai' 'taste' 'markets' 'ahead' 'access' 'houses' 'bright'
- 'issues' 'referring' 'produces' 'identified' 'press' 'date' 'station'
- 'major' 'minimal' 'shared' 'acts' 'monetary' 'unworthy' 'drilled'
- 'obstacle' 'frequent' 'announcements' 'korea' 'kokomojo' 'collaboration'
- 'credible']
-pos - pos['time' 'rubber' 'remember' 'gusto' 'tanum' 'told' 'kyrie' 'abigail'
- 'ikaw']
-neg - neg['farmers' 'bless' 'thank' 'working' 'hard']
-pos - pos['agree' 'juice' 'hehe' 'akhiro' 'iban' 'softdrinks' 'schools' 'buko']
-neg - neg['manny' 'pinol' 'possible' 'corruption']
-neg - pos['hindi' 'nila' 'solar' 'sila' 'sang' 'project' 'kaayu' 'pahikaya' 'wala'
- 'kabalo' 'importansya' 'irrigation' 'mabatyagan' 'sinong' 'sooner'
- 'later' 'dumdumon' 'naga' 'benepisyo' 'sini']
-pos - neg['manny' 'kaya' 'piñol' 'natin' 'paano' 'wala' 'alam' 'dyan' 'pangulo'
- 'namang' 'pakialam' 'presidente' 'maipapaabot']
-pos - neg[]
-pos - pos['price' 'high' 'buying' 'traders' 'thanks' 'rice' 'farm' 'cost'
- 'suffering' 'look' 'yield']
-neg - pos['good' 'work']
-neg - neg['good' 'manny']
+neg - Cris Consuegra sir kausap ko lang kanina ang hvcdp coordinator namin sa Bulalacao Or Mdo ang reject 8-10.00 ang good ay 18-20.00 huag nyo naman masyado takutin ang mga farmer, pls... tulungan nalang natin kong may maitulong tayo kung wala magpahinog nalang kayo...
+pos - Aedan Licos Government should form an agriculture cluster so DA, DAR, DOST, DENR and DTI will have a synchronized program.
+pos - Sana huwag naman lahat magtanim ng rubber baka mag over supply na naman tapos babagsak din ang presyo. It is better for DA to study which crops are better suited to a province. For ex Highland Alfonso Cavite you can plant black pepper and coffee but these are not suitable to other provinces.
+neg - Ban the importation of palmoil they are killing the copra farmers.
+pos - Bonnie Javier yes I hope so too. But just recently prrd vetoed the bill because I think he saw it is lacking to protect the interest of the farmers  Possible the corrupt will benefit  So it is very important to elect congresman and senators who really think of the people and not how much they can get
+pos - Include coco jam spread as another product to promote, as well as the bukayo candies (grated coconut cooked in molasses)
+pos - Eto pa ang pinaniniwalaan kong solusyon kesa sa Belga Agro Festival na yan! Gang promotion  lang yan; pupusta ako walang maitutulong yan sa mga magniniyog na Pinoy!
+neg - Ana Liza Gorne wag kang uto uto
+pos - tikal!!!!!
+pos - G
+pos - Way to go.  Let us protect our own industry.
+pos - Please include our garlic in this endeavor. Our native ones taste much better even if smaller than Taiwan varieties. Gosh, they come to us heavily bleached.
+neg - Mary Ann Dabalos Rabadon mura tlaga tapon ng palm oil ng indonesia at malaysia sa atin kaya nag suffer coco oil,  isa pa sana mismong DA  magkaroon advertisement how good coco oil versus palm oil,  prangkahan na bakit pa pagtakpan ang kaunting ambag ng palm industry mismo dito sa atin
+pos - True.. Israel was able to survive the El Nido through out the years of its existence yet, their agricultural practice becomes a model even here in the country..
+pos - Right the only way to help farmers buy their products like onions
+pos - Cheryl M Yorong ako na unta ipaputol hapit
+pos - G
+neg - Mercy Viray Admana ma'm ang production po kasi natin ay kulang hanggang anihan kaya pag sept na nagmomonitor na po ng mga storage ang bpi kong may stock pa. At kong ilan po ang kulang hanggang anihan un po ang bibigyan ng permit ng importation. Pwera nalang kong ginagawan talaga ng kawalanghiyaan ng mga walang hiya...
+pos - Its not my birthday. Its the president's. Thanks anyway.
+pos - They cud serve as tourist attractions too..as the millenials love to say, the structure is "instagrammable".. So, paging Dept of Tourism Cagayan..Yoohoo!!
+pos - Noli Gapate hiyang hiya naman si Sec Piñol sa inyo po. You should realize what he has done for the Agri dept and this one cannot be done overnight.
+pos - go Sec Pinol!
+pos - Agarang solusyon . Nice move to help onion farmers
+pos - Thank you Sir. pls include also Zambales mango. God bless you.
+pos - Trabaho lang Sec. Manny, ipagpatuloy ang kabuhayan ng mga magsasaka! Looking for the best place for abundant water source underground? There is a scientific method that we are specialized, experienced, and available all over Philippines. If you have any requirements for AQUIFER (underground water pool) location you can avail of our services for georesistivity testing and deepwell drilling. 09301542115- Gerick Padilla
+neg - Mismo...lalim na.
+neg - Huwag mo ipipilit ang copra mo kasi mura na nga. May suggestions and alternatives na po na ibinigay. Try to look into this para hindi kayo lalo mahihirapan.
+pos - I LIKE THIS
+pos - to tell you the truth, sweet mangoes from Pakistan and India that looks and taste like the Philippine mangoes are being sold here in germany for 1,80€ per piece in asian stores. fruit handlers are complaining of monopoly in the part of philipine handlers as much as they would love to buy from philippines.
+neg - Grabe nman sila,   diri n lng ns sa amon ibutang kay subra 300 has ang rainfeed lng. Kabudlay gid sang farming nmon halis nabutang lng s water pump kita nmon. Praying nga mahatagn mn kmi sina diri.
+pos - Very good job Sir MannyPiñol. We are a tropical country and we are blessed to have deep rooted plants like fruit trees and other perennial fruits. Fruit plants agriculture has highest Value of Production per hectare per year.. Good for drought situations. Total national agric Value of Production will increase. Good marketing.
+pos - Excellent job sir Manny👊👊👊
+neg - Not only  water  Crisis  Sec  MannyPiñol  Philippines  could  FACE Massive  conversion of  Agriculture land owned by  Small  farmers   if low  price  of  Palay  will  prevail
+neg - Fuerzas Xycris, that is good for those banana plantations for they have capital, or afford to infuse additional investment. But can the small farmers afford to infuse additional capital? Yung tanim ng small farmers, karamihan, gulay o palay at kunti lang ang inaasahan na kita. Sa tingin mo susugal ng milyon na equipment na reverse osmosis technology para sa maliit nilang sakahin? Ang problema ay hindi ang maliliit na magsasaka, ang problema mga politicians na walang alam na mabisang kasagutan sa problema, kundi puro pansamantalang kalunasan lang. Ito maliban sa mentalidad ng karamihang politicians na yung mananakaw lang ang iniisip.
+pos - ロンセスバリエス コイ yap i notice that too elevated sya sa ground sana  tinaas nila kahit one meter high kahit hindi binabaha ang lugar for sikaso lng just in case.ilan kaya ang kasya dyan.congrats sir Pinol.
+neg - Hahaha.. biktima na naman tayo ng papogi points..
+pos - Good Job Sec.Piñol your in the right tract for the Pilipino’s
+pos - Right
+pos - nice one Sec Pinol!
+pos - Good job sir Manny, hoping to have those solar irrigations too here in Quezon.
+neg - John Paul Bulaclac Cruz Ito ang mga comment na makaka tulong. Hindi na batikos lang ng batikos, wala namang mai suggest na option.
+pos - Congrats
+neg - Mark Arman Aquino bakit too late sa panahon ni panot walang ganyan?
+neg - bakit dito sa middles nagbabayad din naman sila sa tubig mas mahal pa nga ang tubig pero non stop naman sila mag farm kahit el niño naman dito sadyang mariklamo lang kas talaga mga pinoy gusto lahat libre
+pos - Bong Pinol you gave me a stupid answer at first!!!
+pos - Continue the good work mr.secretary para sa bayan.more power God bless po.
+pos - God bless..
+pos - since 2008, i have been promoting also the VIRGIN COCONUT OIL (VCO) and the use of coconut oil for cooking.. I am strongly discouraging Filipinos from using canola oil, palm oil, vegetable oil, soya bean oil as they are highly toxic and have been causing serious health concerns..  VCO helped me get well from my health crisis (ovarian cysts, severe endemetriosis and small myomas).. Philippines is very blessed to be abundant with coconut trees.. DOH, Dept of Education and DA have to work hand in hand in telling the Filipinos about the healthy truth about coconuts.  Sadly, the doctors wont tell this fact to you...on how VCO can heal a lot of serious health concerns...
+pos - Work lng ng Work sir Manny.. Thank You for this wonderful Project.
+pos - Daghan kaayong salamat Sec. MannyPiñol! Mabuhay po kayo for helping us small time coconut farmers!  God bless you more...  ☝☝👍👍
+pos - Good job SEC. PINOL
+pos - Jhec Gonzales ...Sa lahat po na gusto makatanim ng Mangoming sa kanilang mga bakuran ay gusto kong ipaabot na masaya akong makapagshare sa inyo ng Mangoming scions pagdugtong sa inyong rootstocks kung gusto nyo mag grafting. Kaya lang limited po ang scions available from my 5 fruit-bearing Mangoming trees, dahil wala po akong mango plantation.  Hindi ko po kayo mapagbigyan ng sabay sabay.   My Batch 6 of Free Mangoming Scions distribution in 2019 is already fully committed to 800 persons who requested since February to July 2018.  Ayoko pong magpromise na hindi ko matutupad.  However, kung ipahintulot ng Panginoon at buhay pa ako at nandyan pa mga Mangoming trees ko, ay itutuloy ko ang Batch 7 in 2020.  IF YOU are willing to wait that long, I would be glad to include you in my new list.   Just PM your recipient's complete name, address and contact number as required by LBC.  Note: Due to FB 5,000 Friends limit, I could no longer add future Free Mangoming scions recipients as "Friends". Therefore, so that you can still be aware and updated of related news, please click "Like" to follow my Page: Mangoming Highlights by Maria Socorro Modequillo Bodiongan.  You can comment or ask question on my posts on this Page or you may chat thru Messenger.
+pos - Good Job Sec MannyPiñol...you are the very first DA Secretary with unique & potent Add on Portfolio: Cum “A” Grade Investment & Product Promotion Secretary...u are the perfect embodiment of a DA Secretary that direly fits to the Phil Agriculture Narrative Of the NOW...its time for DA to create a position based on your personal template...Keep it up...Gbu more...
+neg - Mark Arman Aquino tama. Too late kakainis
+pos - Daming bombay.
+pos - sarap bhay
+pos - Thank you, sir for your loyalty to President Du30 and the Filipino people! Mabuhay po kayo at ng iyong mga kasama 👊 God bless
+pos - MannyPiñol :  are there govt.assisted funding programs for local cooperative Association to do and make a positive contribution for many farmers and citizens!  KMG DA Programs!
+pos - Better than building a new Senate bldg. Thank you Sec.Manny!!
+pos - Wow, hope the price will be affordable sa kgaya naming mga small time ofw/farmers..
+pos - YESSS  !   Thank  you and GOOD LUCK !!!
+pos - Mary Ann Dabalos Rabadon I wish I have done it for my sister. Too late she’s gone too soon😭
+pos - Bang Momongan Conanan murag nindot nig matinood maam👏
+pos - Not enough gyud Sec.Piñol.
+neg - EU used a very shallow reason in imposing ban on palm oil import from malaysia n indonesia.
+pos - Desalination is the answer ...
+pos - Bong Pinol easier said than done!!! Better stop it!!!
+pos - MannyPiñol Sec Manny, blessed day po.  Some recommendations po as per actual experience of western market. We need to create or design the system that works for the whole country po. We can easily beat the world market po by 1. Declare Phil Agriculture towards organic farming until 2024 - maximize the use of farm and market wastes to create our own fertilizers; accomplish 20% annually. On this way, we can save water consumptions, regulate production, and develop sustainable market 1st local then global.  2. Establish Agri hub - offer simple investment to our OFWs - we can present details; 3. Logistics - 7,107 islands need logistics. 4. OFWs will always be the Ph Ambassadors of agri crops because they invest on it; 5. Campaign on BUY LOCAL PRODUCE. Label local and imported goods. Agri industry is always a winner. Thank you po sa lahat nang pagsisikap mo at ng buong Kagawaran ng Pagsasaka na mareporma at maiangat ang ating ekonomiya. Send our products abroad and bring back more consumers thru farm tourism are the keys towards economic recovery po.
+pos - Dear Sec Manny, just say no to palm oil imports po coz we are looked so stupid already. Don't worry po with our other products because coconut is over production.  Neigboring countries will respect your decisions because you care on our coconut industry.  This is the best NO as an answer po. God bless you po.
+pos - I do not understand why coconut oil based cooking oil like Minola are so expensive when the material is plentiful in the country. The Philippines is the world's number one/largest producer of coconut oil.
+neg - MannyPiñol kung ayaw nila tanggapon bigay nyo na lang po sa amin around 1500-2000 hectares ang benificiaries Sisiman, Lutayan, Sultan Kudarat
+pos - Jigs Dolores Ignacio  try mangoming of ma. Socorro Modequillo Bodiongan in Iligan! Certified. Registered. About 2-3.5 kilos per fruit.
+neg - ECONOMIC SABOTAGE by Malaysia👎👎👎
+pos - Very good
+neg - change politicians and traders who likes to make us poorer....
+pos - Good design sir🙏🏼
+pos - This is a good prospect. If Belarus will establish an assembly plant, at least the parts that will come into the country will not be taxed high as compared when the equipment is fully assembled. It will generate employment, and some of the parts can be manufactured locally, which may generate more businesses.
+pos - God bless..
+neg - palm oil smuggling is being done on our high seas this has been going for so long, our coast guard is not doing their job to interdict this smuggling  wala silang huli siyasatin ang kanilang accomplishment on this wala.
+pos - We really need the likes of him in the President's Team of Able and Trusted Men and Women.
+pos - Nico Busto tama ka jan igso nakapag import na cla.,
+pos - SUPERB
+pos - Very good
+pos - U better believe Gov.
+neg - THANK YOU FOR NOT SURRENDERING TO THE MORONS SEC PINOL.. NOTHING IS FREE YOU IDIOTS..
+pos - You're doing great Sec. Manny Pinol... But we have to plant more coconuts to achieve this... Hope that the organization of oil millers and coconut planters would spend more time in coconut production..
+neg - Boe Sison Kathleen Carley April 16, 2017 ·  Change.org  ·  Palm oil is found in nearly everything we eat.When heated to high temperatures when in frying and such it creates cancer causing substances that we find in our foods. Not only is it responsible to the deforestation of our rainforests in order to plant the Palm Oil, the burning cause the release of carbon that stays in the rainforests for hundreds of years. There is nothing good to be found to our use of this oil. Only harmful side effects. We are losing the habitats of the Orangutan and the Sumatran Tigers and Elephants. Not to mention the abuse to the child labor and other indigenous people.
+pos - Happy Bday Mr President!!!
+pos - Good job Sir Manny Pinol an team
+pos - Well done Secretary Piñol! 🙌🏼👍🏻👍🏻👍🏻👏🏻
+pos - Amazing!
+pos - Wow beautiful
+pos - Congrats to our DA SECRETARY.  The next challenge for his sub-alterns, undersecretaries and regional heads, is to identify the problems inherently stopping the farmers from exporting. ONce you have discovered the disconnects, and developed solutions, exports would boom. For now, it is too difficult for the small farmers to do. Perhaps the big multinationals will respond to this, capable and empowered they are for many years. But then, sila lang.
+neg - Sec. Manny, those critics might have the backing of CPP/NPA or LP, and also rice cartels.  After all, they earned billions of pesos from the rice manipulation two years ago. They will not go down quitely, but slowly those critics are becoming irrelevant.
+pos - Happy birthday!!!
+pos - Congrats sir on this mammoth project
+neg - Grabe talaga ang neglect the government in the past. We have these Cartels that cause suffering to people but previous government just didn’t mind because most likely some if not most of them benefited from these cartels.  They have become so powerful and weld power from inside the government. Now it’s a difficult task for current admin to break them!
+pos - Coco sap sugar for diabetics need to be promoted as well.
+neg - After buying what? Ipapabulok? Farmers are not entreprenures
+pos - Diplomacy sir Di bastosan its about ethics... One way of showing that we professional and educated than inhumane attitude. Sir Piniol handle it right. God bless you you.
+pos - G
+pos - put one assembly plant in timpas panitan capiz we show to judy and marimar we have something different for capiz.sec pinol the mrrd necc capiz agro industrial coop salute you of your administration and prrd
+pos - Some mangoes in the market taste like medicine. 🙂 I miss our mangoes.
+neg - panawagan sa DOH and DTI. pls have the cooking oil sold in the  markets labelled COCONUT OIL, palm oil etc. not just vegetable oil. i prefer coconut oil.
+pos - #SecPiñol, sa Mlang nyo nalang ilagay po yan. Make it an example. Lapad2x sang Mlang kag damo basakan toh.
+pos - G
+pos - Agree
+neg - Wala pong over supply... sabay sabay lang nag harvest which is normal kase harvesting season nga. I bet the total harvest will be not enough until the next harvest season. Baka mag import pa tayo. May mga mapagsamantalang trader lang talaga. Sana pinabawi man lang mga farmers ngayon kase last year sobrang lugi dahil sa peste. Ngayon presyo naman tumira kaya lugi pa rin. Sana magkaroon ng systema at patakaran to stabilize our farm produce buying prices. Set a buying price range before the start of the planting season then ENFORCE the price range during the harvesting period. Kaylangan lang pagaralan what will be the lowest and highest price based on production output levels based on worst, average and best conditions. There should be no case na the lowest price be lower than the average cost of production.
+pos - interesado po ako ma'am. Please include me po sa batch 7. Maraming salamat po.
+pos - Edgardo Herrera ... Thank you sir.   You're one who can vouched for Mangoming para hindi na masabi ni sir Manny na "We don't just promote the propagation of a new variety based on the say-so of one person" Kailangan po pala lahat ng nakatikim mag "say-so" din.
+pos - Right
+neg - Mr.Piñol,try to investigate the bigtime copra buyer.wag ka muna mag punta sa ibang issue.
+pos - Wow Kah Nice Thank You Sec Manny
+pos - Jenelyn O. Yuson Congrats Madam
+pos - This is worth sharing Sir Manny! You are one DA secretary that we are proud of! Thank you so much for your support to our president! 👊🇵🇭👏
+pos - Sir Pinol, why not asking for help in the Chinese govt. Maybe they can provide us solar panels in cheaper prize. I've seen the   video here the wide dessert area of Xingjiang & inner Mongolia before where covered now with farm lands and they used the solar energy.
+neg - mam dito po sa Mindoro umabot sa 8 pesos to 10 pesos halos hingiin n lang nila
+pos - Also Sir in Saudi Arabia everyday no rain but still good crops
+pos - Jigs Dolores Ignacio tumpak ka po
+pos - Good job sir Sec. Manny Piñol
+neg - Ang puhunan sa pagtatanim ng sibuyas  15k per lata tapos bibilhin 8 pesos per kilo ? Saan hustisya?  Luge na. Nkakatamad na uling magpatanim sa susunod bwesit kulang pa sa pagod.
+pos - Getting there!!!
+pos - Soc Piñol, I think the DA should also embark on massive promotion of coco and other products!
+pos - Thank you sir
+neg - Increased water yield is not just about planting more trees but creating an environment containing a balanced flora (vegetation) and fauna (animals), insects, microbes, humidity, temperature, topography, etc etc... that would give optimum volume, good quality & perrineal (year-round) water yield.
+neg - THANK YOU FOR NOT SURRENDERING TO THE MORONS SEC PINOL.. NOTHING IS FREE YOU IDIOTS..
+pos - Meron po tayong design for vegetables or high value crops sir.
+pos - Madelyn Langcoban Gomez wow miss lyn good news
+pos - Happy birtday prrd sir many efren pinol mi for congresman kidapawan city
+neg - Jhannie Kare bakit nga ganun. Ang sarap ng mangga dito.
+neg - Bat ngaun lang stop onion importation
+pos - G
+neg - Farmer,landlords,Planter: we could always turn the agricultural land into another subdivision. Villars:😊
+neg - doomsday seed bunkers....
+neg - MannyPiñol yes po 5 --8   nalang  presyo sa murtha ALitaytayan san jose occidental mindoro taga
+pos - Bka palpak na irrigation.....
+neg - Sir Manny sa ibang bansa meron sariling irrigation system ang bawat farm. Merong water pump ang well nila kaya walang silang issue kung merong el nino.  At kung merong rain forecast hindi na sila nag e irrigate. Pra tipid sa tubig. Ang nakikita ko lang na kulang sa atin ay pera pang gawa ng sariling pump. Medyo mahal. At tsaka walang forecast specifically each areas. Walang idea mga farmers talaga sa weather forecasting.
+pos - Bingo! A Port-Pair Approach of monitoring using ICT-aided tech may help capture the real data. Great job, SECDA.
+neg - Renato Ulanday Ibarra sheeeet what happened!
+pos - G
+neg - Amob Salaya amob salaya nung nakaraang sibuyasan hnd sapat kasi nga naarabas o na army worm ang sibuyas naming magsasaka pero pag hnd nauod sapat ang ani kay Noynoy noon laging maganda ang presyo ngaun nman bagsak presyo kahit kamatis 2 isang kilo kay Noynoy walang ganyang presyo
+neg - in every place probs occur in different way dapat may assign taga place pano masolusyonan ang mga ptob kawawa ang mga farmer...
+pos - We need investors .. some entity to process our latex .
+pos - You are Truly a gift to this country & to our good & over performing Bday Boy PRRD...  Ur genuine public service is really what makes your heart sing...surely it is the very reason that you are not running out of energy coz iit’s energy giving in itself...what a rare breed...  People with passion can change the world for they can have great ideas that can inspire others to believe in it. They make their adversities their advantage...have seed of greatness in them...and you are that man...  Keep it up, thank you & God bless u more...
+pos - Thank you Mr. Sec Manny sir! Mabuhay po kayo
+pos - Very good
+pos - G
+neg - Di nman
+neg - Ok din sya sir..sa mga 7.2 na lindol ..pero hwag naman sana maglindol.
+neg - Kunti lang kasi ang madudukot di tulad ng dam tiba tiba😝😝😝
+neg - "The Department of Agriculture (DA) will provide Onion Farmers Associations with working capital to be used in buying their MEMBERS'' produce."....para lang daw sa members' ng association..paano pala tayong mga individual na hindi member???🤨😔
+pos - Kinuckurakot pag dating sa munisipyu
+pos - Promise land
+pos - mao jud na unta pati sa rice kung pwede lang Sir MannyPiñol
+pos - Jaee Zell kaya nga maam noh.lugar pa man din sana ni manny pinol. d2 midsayap 500p/hect.
+neg - Kingnoel Peralta free irrigation nga po  sir pero until now Wala po umaabot na tubig samin...useless nmn po ginawa nilang irrigation samin😭
+pos - Alain R. Alafriz dagdag trabaho. Bugbog na ako.
+pos - Yes, we also have thai mangoes in Singapore. They only look bigger but ours is still sweeter by a long shot.
+pos - Sec Pinol, one very important input in the growing of coconut trees is salt. Saltmaking or salt production industry must be under DA because saltbeds are used in growing fish during the rainy season. Each coco tree needs about 4kg of salt every year to stay healthy and bear more fruits. Salt is used in livestock and poultry feeds.   Besides DOST which provides some R&D assistance, no government agency is really in charge of “salt”.   Just imagine the livelihood opportunities we can generate from saltmaking
+pos - Martha Jocelyn Bueno Villanueva Maam as long as our good neighbors dumped their cheap palm oil to us, forever n magdurusa tau! We need arm twisting methods to solve this!
+pos - Thank you sir
+pos - Rodney Mendioro Balicaco meron actually.
+neg - Chas S Vidanes , "does a banana grower produces mango?.. a stupid question!!
+neg - Drought is not our problem, corruption is.
+pos - best secretary in Du30 admin..
+pos - we appreciate the effort.
+pos - Great job!
+pos - agri has a tremendous impact in forest conservation especially on buffer zones. in partnership with denr, they can provide alternative livelihood to communities in these areas. and besides, alam ko mas malaki budget ang agri sa denr.
+pos - yes. they actually like our lambanog and rum.
+pos - Alex Bermudez hapit naka ma rich sir. Ahw super rich diay kai rich naman daan 🤣🤣🤪🤪
+pos - Mark Arman Aquino it's not too late . Kung paano dumating si Pres. Duterte sa buhay natin ganoon din si DA Manny Piñol sa mga farmers....
+pos - The flavor profile of the Philippines mango is unque. Pinol should file for a DNA rights over Philippines mango, and file for a certficate of origin like the French does with its products, e.e. wine, cheese, etc.  Already, the Philippines mango was "smuggled" to Mexico. I think this was sourced from a Mango plantation project in Guam undertaken jointly by a company owned by Gil Puyat Jr. and then Gov Calvo of Guam. The project was scuttled but the mango trees remained in situ and became the root stock of the very popular ataulfo mango.
+pos - technology for sustainability
+pos - Jesse Mendiola : Money talks bro.
+neg - Sir MannyPiñol   San Occidental Mindoro   5  nalang ang Presyo ng Sibuyas kawawa mga farmers hinde maka bayad sa utang
+pos - Yan ang sinasabi ko. Better train our local engineers To assemble farm implements. We have inventors in the  Philippines. Give incentives by launching a contest in coming up with innovative ideas.
+pos - Saleut Deutsch I was so sad that time, thanks God I am not alone I am sorrounded with prayerful brothers and sisters in Christ and a pushy raw diet passionate German friend who source everything for me, spend her own money to convince me. The pain is everywhere, the  stress the worry the fear, will kill me more than the actual disease itself. There is a living a God indeed. So get drunk with with VCO that's my suggestion.
+pos - Hi all....I'd like to share my powerpoint presentation as guest speaker during the recent luncheon meeting of the Rotary Club of Davao entitled, "Water is Life". It argues that the most important factor in the water supply for human consumption is REFORESTATION. Emphasis: It's not the only one but it's arguably the one with the biggest effect. Check it out: https://goo.gl/Yg2EhL .
+neg - Basta unbridled capitalism may cartel...
+pos - The first in the world. Thank you Secretary Manny Pinol. Sir Bong Pinol, Diane Faith Garcia.
+pos - The Philippines SPIS Program will become as famous as drip irrigation in Isreal, where I have been and seen with my own eyes. We at WELL PUMPS BELGIUM and BISOL SLOVENIA are very proud to be involved with this program and look forward to supporting it for many years to come..
+pos - Mabuhay po kayo Sir Manny Piπol !!!  God bless po ..
+pos - Astig
+neg - Sana after the investigation cartel should be on jail not only for onion but other primary commodities of poor Pilipino Farmers
+pos - Talhal Bai ulo u painitin u
+pos - Pinoy Gonzales not really. This concept has been embraced by many other countries.
+pos - Hi Sir MannyPiñol please ask the President and his economic team to recommend to Congress to open up the economy and remove the 60/40 ownership limits in our constitution so more FDI can come in the country and invest in our agriculture sector... Kindly check the CoRRECT Movement and I hope you can talk with Mr Orion Perez D about this advocacy. THANKS AND MORE POWER... Federal Parliament FDI People's Draft ABOLISH 60/40: LIBERATE PHILIPPINE ECONOMY, MARKET FRIENDLY PHILIPPINES
+pos - G
+pos - Sir kindly consider our farmers in San Agustin, San Jose, Occ. Mindoro to avail this project.Our farm lands are productive and can grow different crops, given this project could be of great help to them Maraming salamat po.
+pos - G
+pos - Form a cooperative so we will have a stronger voice in the market..
+pos - Macky Dudz alright!!!
+pos - Delfin Mahinay amen.
+pos - Thank you for this program...hopefully sir magpo-provide din ang government ng libreng farm machineries to including fuels and etc... as in libre talaga para hindi nah mahirapan ang ating mga farmers...thank you po.
+neg - Alfred G. Gabot. Fred.i have trying to propose this approach since Sec. Pinol was appointed. It is still in the Usec. Office. Kung na pilot lng.nila ito di sana meron na silang ipakita sa mga discompyado . now that they have TRILLIONS they should be able to provide us not a dole out but a social investment we can easily replicate to other areas that they like. Sayang ang panahon. Ka Sonny
+pos - Gerardo Empleo Suello they are our neighbors we need to trade with them.. that is not how world trade works....
+pos - Please po sa Panay area din...thanks
+pos - G
+neg - Mark Tolentino Pure Force- Media PF Dispatcher please make sure this report reaches Sec EFP
+pos - Love the way steps are taken. God Bless you.
+pos - Lets plant millions of trees Sec. Pacific ocean is just next to us. Whatever water evaporated from d ocean on day time will surely condense to our forrest on night time.
+neg - Yes sir timely  adequate irrigation water from wherever is necessary for crops animals and humanity. Farm inputs are useless without irrigation water
+neg - Saggy Bonifacio oh Kay maalam di ikaw solusyon problems sa farmers sa presyohanay sa produkto! Mao lague problema basta gipanganak datu!
+pos - kudos sec.Pinol and the israleli agri experts!
+pos - Great Boss
+neg - Jay Tana wag kang manilaw jan puro pangako lng yan wala namang kita ngaun priz ng coconut halos hingiin nlng ng mga buyer paano eto ma solve kung hangang porma lng tayo.....
+neg - Miat Dualan correct. Mataas ang overhead thats why breakeven lang or kumita kaunti lang for prep to harvest stage of 4 months.
+neg - This is really possible thru govt project of irrigation..if they will really do...if only thru farmer by themselves its very hard...i admit that somebody could do...but mostly cannot..big issue or problem is water source of the area...then the equipment...and the cost...its a huge investment to a poor farmer...hope we can make solution mr. Secretary...i knew only govt can provide for the poor...
+pos - Happy Birthday Mr. President. Good health and more years to enjoy life!!!
+pos - I have the experience of sending mango to Russia. The problem is the expensive cost of air delivery.
+pos - Amazing 👏🇵🇭👊👊 people’s money well spent
+neg - Please allow our raw material products to be exported. Allow China to export our raw coconut. That was the best competition on the market that I have experience. That way you can help us farmers. Stop protecting the businessmen/oil millers in the Philippines. It is futile to continue on a system where in farmers are the one being sacrifice </3
+neg - Demar Nacz , ganyan katigas ang ulo ng mga Pinoy.....hinahanapan na nga ng ibang market ang coconut para hindi nakasalalay palagi sa Copra ang kita ng mga farmers...tapos ngayon COPRA parin ang iniisip ???!!!....Until such time na hindi kayo magbabago ng Paradigm about sa Coconut....Mahihirapan talaga ang buhay nyo....
+neg - Edgardo Herrera ... Yes po, kapag harvest time na po maybe June to August dahil flowering pa ngayon. May nag-offer sa akin na may-ari ng famous Mango Mania Healthy Dessert CDO, na magplan kami ng Mangoming mango event sa kanyang area sa Robinsons Place Iligan to showcase Mangoming potentials and what her experienced staff could do serving Mangoming flavored desserts.  Sana ma invite ko si DA Secretary at mga local officials namin. Sana by that time marelease na ang pinakahihintay ng marami para may magastos ako sa isang profesional Video coverage.
+pos - Nice Sec
+pos - This is soooooo sad
+pos - It is crime against humanity to let all those onions and tomatoes🍅to rot when it could have fed millions of people and made them healthy.
+neg - Yes sa palm oil madali ka talaga aasenso nuong 7 per kilo pa 7months lang nakabili na ako ng 4wrd.  7pesos pa ang sedlings 85pesos lang ang 0060abono 900lang ang 2100  400pesos lang ang labor nuon 250p per day. Ang gas nuon mura pa. Ang palmoil ay every 10days harvest na. Hinde pa mainit . May kambing ka pa as alternative income . 1 to 2 years ma intercrop mo pa ng saging or mais. Sa ngayon ang presyo 280 to 340 n lang. Samantala yon ang nagpaasenso sa malaysia at indonesia.
+neg - Sir Sana sa probinsya Ng Occ. Mindoro magkaroon din Ng ganyan.. the province of OCC mindoro is one of the biggest producer of rice, corn, onion, etc. Farmers deserve to receive like govt assistance...
+pos - JUST WOW!!!.. BLESSINGS!  ..... I SEE YOU...
+pos - Very good
+neg - Whatever happened to the agreement last December between the Department of Agriculture and the country's oil mills ??  It was published that the oil mill companies agreed to buy at farm gate price of P24.. what happened ??
+pos - Hoping for increase price of rubber..
+neg - Talaga..frustration ko yan eh. Sana we can enjoy our very own onions and garlic na lang. Alisin na yang competition na yan. Mura nga, pinapatay naman ang sa atin tlga.
+pos - ...you are not only a good Agriculture secretary but also a good Salesperson. More power to you Sec. Piñol👍👌👊🇵🇭
+neg - Mannypiñol bat po ung irrigation dito sa tarlac dati ang laki ngyon bat biglang lumiit kpag tag ulama malakas ang tubig ng ovee flow nasisira mga pananim...buset..napakalakas ng water pag wet season wala.kming panangga sa tubig wasak
+pos - that is the problem being. in tropics. people think water is abundant. people only act when drought strikes.
+pos - Israel is blessed with BRAINS none with oil.....yun ang comment ni PM Benjamin Netanyahu .....as a result they make the desert BLOOM
+neg - THANK YOU FOR NOT SURRENDERING TO THE MORONS SEC PINOL.. NOTHING IS FREE YOU IDIOTS..
+neg - May free Palay seeds pero pili lang naman ang nabi igyan dito sa lugar namin
+pos - OUR MANGO IS THE BEST !!! Pls export more...👍🏼👍🏼👍🏼
+pos - Do not sell govt forests to real estate developers
+pos - GOD bless you sir manny. GOD bless Philippines.
+pos - Sir. Our weakness is marketing. Agriculture needs strong market linkages, good packing and processing plants, appropriate logistics and good standards. Ours has always been Production-led Agri, while our neighbors Thailand and Vietnam have strong Market-driven agriculture. We have to re-make our bureaucracy to be Market-driven, properly staffed and engaged, with strong salesmanship for worldwide marketing.
+pos - Zeno Ryujin Yes, the worst plague that happened in the country. Weather is God given to balance the earth and all that’s needed is find the solution that is always there but blinded by corruption for personal greed.
+pos - We can also adopt the technology of Israel.. Despite of weather and soil conditions they are still able to cultivate and produce crops.. Its amazing how they do it.. If they can, why can't the Philippines do?
+pos - Sec Emmanuel Pinol, the GREED of capitalists know no bounds.  They are just thinking of huge profits on the backs of the onion  farmers whose produce will be bought at even less than production costs.    Thank you for all your timely interventions to prevent their continuous exploitation of our onion farmers.
+pos - Support local products... Buy agila tires....coconut cooking oil.....
+pos - Right
+neg - Fely Bojo Para ano at andyan sila di sila ang magiging boses ng magsasaka?
+pos - Reforestration is a key.
+pos - Support Local Products and Local Market 🎉
+pos - Congrats
+pos - Bravo !Sec Manny! The jumpstart of  economic bridge for coco products and the like.Thank you for your unwaivering support and efforts.Mabuhay!God bless.
+pos - Lots of my friends love Guava Jelly.
+neg - Rtc Casabar Sir hingi p kayo ng cold storage pra kompleto na gamit nyo!
+pos - Mijur Juris bro my stock n b sa pinas bro.. salamat sa info
+pos - Hanna Petigulao ... Meron na pong sagot si Sec. Manny. Hindi pala responsibility ng DA.
+pos - Happy birthday tatay Digong.wish you more birthday's to come and good health us always god bless po...😘😘
+neg - sobrang baba ng bilihan Peru pumunta k ng palengke 60 per kilo.
+pos - G
+neg - Jeffrey John Lozano tama po kau. We should patronize our own products. But lets try to put ourselves to d shoe of our minimum wage earner consumers, pumupunta sa supermarket, naghanap ng mantika, nakita coconut product from Philippines at 135.00 per liter. On the other side my imported high quality cooking oil at 90.00 per liter... what u think the customer prefers to buy... by d way sir, do u know that buying price of Copra now is at 15.00 per kilo? But coconut consumer pack oil were sold at 130+ per liter?
+pos - Happy birthday 🥳 po Mayor President
+pos - PLEASE DO SAME IN EVANGELISTA NAUJAN ORIENTAL MINDORO..TY PO
+neg - Too late....
+neg - Palm oil imports should be totally stopped, only the capitalists are benefiting. Filipino farmers are the one affected. We should first consume our domestic produce of palm and coco oil before importing. Looks like there is economic sabotage going on.
+pos - Victor Chico at least lesser burden to farmers if NIA are no longer collecting fees. About technical works , we have other govt  agencies like DA , NIA, DENR , LGUs , and others to help the farmers.
+pos - GUIMARAS mangoes...THE BEST!!!!
+pos - Thank you for helping PRRD.... Keep up the good work, sir.
+pos - Kung ayaw nila..trnasfer them to our place, the project is very much welcome here in the cordillera. They want to control over the people kaya ganun.
+pos - Biro mo yan May brains na May oil refinery pa
+neg - Rene Pamintuan palm oil is one of the raw materials in food and beauty industry.  We should be adding value to our raw materials.
+pos - Hope OBrien kaya mga sabi nya ang motto daw cguro ni mr jordan is to see is to believe..haha.kaya daw fake news kc hindi nmn nya nakita sa sariling mga mata  bulag kc yan c jordan😂😂😂
+pos - Repost Dear Friends, Will you please post and help me forward this message to all your other groups so that it gets circulated, thanks. Soon the season of fruits like mango, durians, rambutans, langsat (lansones), duku, mangosteen, jack fruit, etc will be here. My request to all of us is to NOT throw the seeds in your rubbish bin, but INSTEAD to wash them, dry them (in the sun) and pack it in newspaper and keep it in your car. Whenever you go out and find an open baren land while travelling, be it on a village road, on an empty motorway, throw these seeds. They will germinate easily in the the coming monsoon.  If with this simple act, we can contribute even a single tree each season to our world, our mission of greening this world would be successful.  The Thai government has been promoting this to all its citizen over the last few years. Many of their other districts officers have been driving this campaign aggressively which has been very successful. The number of fruit trees in the wild have multiplied many times over particularly in the Northern districts of Thailand.  Let’s us also join the Thais in this brilliant initiative to spread abundance in nature and in this simple yet effective way and contribute back to our next generations. Please forward to all groups...
+pos - Thank you Sec Manny for your pro active and dynamic leadership at D A.If only we could clone you to head other Depts..just maybe..to alleviate if not eradicate the virus that is corruption plaguing our govt'l system.Kudos and Mabuhay!
+pos - That’s the way to go! Market the coconuts and it’s by product! Kudos DA SEC Pinol!
+neg - Nerline Silloren yun nga po ang masakit over supply n nga nagppasok p ng import nasaan ang hustisya?
+neg - Depende sa klase ng sibuyas yan.
+pos - God bless..
+pos - Manny piñol is working for Philippines
+pos - been thinking that before, we can also use wind power, to power the water pumps that we can use for irrigation...
+pos - Continue your good work, Sec Manny 👍 We support you 👊😊
+pos - Is there any research about fish meal processing sir,using our coconut...
+neg - Sec. Pinol,  pls propose for the acquisition /making of cold storages for the use of our farmers,  even if they have to  rent for the space that they will use..
+pos - We salute you Sir Manny Pinol!
+pos - I love  mango from Cebu so sweet
+pos - 1k rubles,pwede nayan sa rich people dito.
+pos - Good job SEC. PINOL
+pos - Congrats Manny Pinol,we pray for the success of this venture.
+neg - noon pa yan nangyayari buti ngayon iaaksyonan maganda dyan 5 months ban every harvesting by season
+pos - Congratulations Sir Manny Pinol and to all who made it happened. Good leadership + vision and goals for the country = excellent result.
+pos - exactly as you had said sir secretary, in my place as of now i am overlooking the river  and yet the ricefields looks like chocolate in color,, where will we submit the proposal on solar powered pump, pls help sir...
+pos - Happy Birthday Mr. PRRD.  Many thanks for all your hard work, support and kindness & love, specially for those poor people. More power, more good health and more birthdays to come. God Bless you always.
+pos - More exports for Philippines.Time to review the Guimaras mango variety for its improvement and adaptability in other suitable areas in Philippines for more plantations and source of livelihoods for local citizens.
+pos - MannyPiñol Thanks so much for the effort in helping the plight of the farmers & in helping in the development of the country’s agricultural situation. God bless & God speed🙏👍🤗
+neg - Gloria Ili Segaya Nueva Ecija  kinokontrol ng mga cartel  mga sibuyas  nabubulok  lng
+pos - Mexican mangoes are close but small. Nothing can compare to Philippine mangoes.
+neg - same with rice can the NBI investigate also..14 sariwa to 50 pesos price of local rice?
+pos - Very good
+neg - Not just in Davao pero ang tanan na coconut farmers.. Perting looya.. Dili na lang ta ganahan mag kopras kay mahal ang bayad sa labor barato kaayo ang presyo..
+pos - This is a good start sir.. We are good producer.. WE LACK MARKETING..
+pos - Dexter Carlit its happening.. But sometimes we need to gamble. We cant sit and wish only
+pos - wowww, nakakaproud naman...More power to DA and Phil. mango growers.
+pos - good governance .... it will succeed
+pos - Sec. paano pagmakulimlim???? Hahahah bobo!!!  God Bless the Philippine Agriculture. Yes we can!!!!!
+pos - Bakit hindi natin magawa. Filipino agriculturists and foresters, etc. nasa hotels nag seminar.  In the US they (professionals and scientists) honed their ideas on the field, they cultivate their lands.  In the Philippines, government entrusted to the lowly Peoples Organizations the projects wthout science-based assistance. ✌️😑
+pos - Because. Of Putin the great
+neg - Now lang yan kase malapit election but did they promise for focusing the local agri developmente lalo sa pricing po
+pos - Wow....d best sir pinol
+pos - Don't just be amazed... get their secret...
+pos - I still believe Sir MannyPiñol that  parallel to this brilliant recommendation of yours is another measure which has been promoted and applied by DA-BSWM since  Marcos administration ---  the Artificial Rain making or cloud seeding. It is about time that it should be institutionalized. You are right in saying that this drought problem of the country which is worsening as we all know should be addressed by making use of the enemy's strength ( El Niño) itself. We must seed the clouds both the warm and cold clouds.  Our neighbor Thailand has been doing it the past 40-50 years yet we are not doing it.    There are budgetary concerns about this I understand but this is an investment or a program that has been proven many times. I understand that there are oppositors on  this program esp the mango growers on the other hand thia is a welcome thing to palay farmers .  Indeed there is a need to strike a balance on this. Maybe it is about time to really recommend properly zoning system of our farming sector just like what Thailand has done.
+pos - Very good
+neg - Sir. Maawa po kau s mga farmers stop buying pa rn sibuyas
+pos - Zeno Ryujin agree plus overpriced agri inputs
+pos - MannyPiñol  Haay salamat. 😊 Sir meron po ako PM.
+pos - Boe Sison nasisira habitat ng mga monkeys, or ibang hayop. Dahil puputolin ang mga puno, papalitan ng palm tree.. Research mo about jan sa google or youtube.. Kahit sa ibang bansa gusto nila iban ang palm tree.. Kawawa mga hayop..
+pos - Money well spent.
+neg - Government should support d farmers. Fertilizer, pesticides are very high price.
+neg - Ernesto Bernardo kaso  un pagkakaisa  nga  ang  wl minsan  unahan  sa storage  kung  baga
+pos - Sir Manny just saying apil sa National Plan ang massive planting of trees all over the country,  involve the  Dep Ed labi ang mga graduating class to plant  native trees  as requirement for thier grafuation,dn strictly no illegal cutting of wild trees, ang
+pos - Mary Rose Sanchez Lopez unta ma'am hehhehe
+pos - Rod Bioco you said it correctly!
+neg - ang isipin mo tekla(troll kb?)unti unti ng nalalaman ang mga kabulastugan ng past admin esp ang admin ng abnoy mo
+pos - While we export great Philippine mangoes we are left with shitty ones to eat if people could afford it. We keep on exporting and making the oligarchic landlords wealthier. Please make a way for the common filipinos to have better access to quality and inexpensive fruits. In that way filipino consumers and farmers will have more quality of life.
+neg - Gloria Ili Segaya Ganun po dapat gawin ng lahat ng farmers pati schools para matuto ang mga bata.. sayang ang ulan gift from heaven. Ang tanging hurdle lang naman nun ay ang dengue and other mosquito borne diseases na dapat ma-address sa implementation.
+pos - Maybe you could also concentrate on making Philippine mango affordable for people living in the Philippines. Additional exports will just drive higher prices here.
+neg - Ronnie Gallego Duca hindi feasible ang Solar kung wala kang disyerto.  https://www.google.com/amp/s/www.politico.eu/article/germany-climate-change-green-energy-shift-is-more-fizzle-than-sizzle/amp/
+pos - Right
+pos - Its about time. MannyPiñol ❤️
+pos - MannyPiñol your effort is priceless in support to our President, daghang salamat. Ang pagiingat ng Dios lagi sa inyo.
+pos - Fingers and toes crossed lol
+pos - Alberto Baylon Cynics like you have no place on this post.
+pos - Good job sir piñol
+pos - Clarita Carlos Yes, Mam. We should. Borrowing the statement of Manny Pangilinan regarding the strategy of PLDT, “innovate or die”. Government should find ways, make innovations in our coconut industry. Find more lucrative products out from our coconut. If not, we will just cut off our coconuts and replace it with other crops that can bring better income to our farmers.
+pos - Through our local partners we can supply the complete solution from Europe. Top quality technology and quality. Plus full local support.
+pos - Hon. Sec,we will be grateful if Bataan( at Region 3) ; comprising of 12 municipalities;  be one of the beneficiaries of the SPIS Project. May I suggest Samal, in particular. Thank you in Advance👍
+pos - G
+pos - G
+pos - Agreed!! Their using their powers/ connection to manipulate. Then the sad part,  LET THE POOR FARMER GET WHAT THEY DESERVE :( :(   Every Year lagi silang baon sa utang, tapos Walang kita.  Please Have Mercy on the Farmers.
+neg - Drought is not our problem, corruption is the main crisis sa Pilipinas
+pos - Rene Lemar Ramel  any solution. That is what I am interested in.  Hope against hope Sabi nga
+neg - Clarita Carlos that its ok brod but for sustainable n commercial production medyo hindi viable.
+neg - Punta po kau sa NATIONAL MANGO FESTIVAL matitikman nyo po our own different carabao variety from luzon to mindanao plus u can compare it sa ibat ibang imported variety na mango
+pos - Rene Pamintuan you said it right Rene...Im almost exasperated on the ground...the only thing that keep me going on is the contagious Fire from the Secretary...had already shared My exaspiration to the Secretary & SAS Bong a week ago...
+pos - Secretary Pinol please help our coconut farmers....
+pos - Solar pumps and solar desalination plants to help create salt for our fisherfolk and fresh water for our people would be the next revolution Israel could give us! Go Sec Manny!
+neg - Salamat sa action sir MannyPinol ,sana po abutan pa mga sibuyas dito sa bayan ng lupao, nueva ecija. ayaw na pong ipabunot ng mga farmers ang mga sibuyas dito kaysa mga mapagsamantalang traders ang kumita ng napakalaki... Marami pong masisirang sibuyas dito sir lalo na at gumagayak ang ulan dito... Sana po makamit namin ang tamang presyo...
+neg - Ayusin ng national level systema ng agriculture all the way down sa municipal to barangay,spend ...to develop a system that the traders cant help but...

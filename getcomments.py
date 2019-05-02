@@ -189,7 +189,7 @@ def get_comments(browser,link):
 		countStr = str(count)
 		ogComment["id"] = postID +'-'+ countStr
 		ogCommentIndex = count
-		ogComment["replied_by_pinol"] = False 
+		ogComment["replied_by_author"] = False 
 		ogComment["parent_comment_id"] = 0 #zero means that it is a top level comment
 		
 		message = fl.find("div",{"data-sigil":"comment-body"})
@@ -219,7 +219,7 @@ def get_comments(browser,link):
 				replyComment = {}
 				countStr = str(count)
 				replyComment["id"] = postID +'-'+ countStr
-				replyComment["replied_by_pinol"] = False 
+				replyComment["replied_by_author"] = False 
 				replyComment["parent_comment_id"] = ogComment["id"]
 				replyMessage = reply.find("div",{"data-sigil":"comment-body"})
 				replyComment["text"] = replyMessage.text
@@ -229,9 +229,9 @@ def get_comments(browser,link):
 				except:
 					replyComment["author"] = replyMessage.text
 					replyComment["text"] ="***Replied sticker/image***"
-				#check if pinol replied
-				if (replyComment["author"] == "MannyPiñol"):
-					ogComment["replied_by_pinol"] = True
+				#check if author replied
+				if (replyComment["author"] == postAuthor):
+					ogComment["replied_by_author"] = True
 				replyComment["no_of_replies"] = 0
 				commentlist.append(replyComment)
 			commentlist.insert( (ogCommentIndex - 1), ogComment)

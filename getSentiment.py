@@ -67,8 +67,9 @@ def trainModel():
     vectorizer = CountVectorizer(analyzer='word',tokenizer=tokenize, lowercase=False)
     encoder = LabelEncoder()
     x = vectorizer.fit_transform(data)
+    xnd = x.toarray()
     y = encoder.fit_transform(dataLabels)
-    X_train, X_test, y_train, y_test = train_test_split(x, y, train_size=0.80, random_state=84230)
+    X_train, X_test, y_train, y_test = train_test_split(xnd, y, train_size=0.80, random_state=84230)
 
     mnb = MultinomialNB()
     mnb.fit(X_train,y_train)
@@ -79,11 +80,14 @@ def trainModel():
 
     predictFile = open("predictions.txt", "w", encoding="utf-8")
     for i in range(len(y_predicted_labels)):
-        predictFile.write(str(y_predicted_labels[i]) + " - " + str(y_test_actual[i]) + str(x_test_maps[i]) + "\n")
+        ind = xnd.tolist().index(X_test[i].tolist())
+            
+        predictFile.write(str(y_predicted_labels[i]) + " - " + str(data[ind].strip()) + "\n")
     print(accuracy_score(y_test, y_pred))
     predictFile.close()
-    
+
     return mnb,encoder,vectorizer
+
 # print(posSet)
 
 def getSent(model, encoder, vect, text):
@@ -92,7 +96,7 @@ def getSent(model, encoder, vect, text):
     senti = encoder.inverse_transform(y)
 
     return senti
-'''
+
 x, enc, vect = trainModel()
-z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
-getSent(x, enc, vect,z)'''
+# z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
+# getSent(x, enc, vect,z)
