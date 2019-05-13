@@ -1,20 +1,21 @@
 from tkinter import *
-from tkinter import ttk, _tkinter
+from tkinter import ttk, _tkinter, font
 
 import threading
 import selenium
 import re
+import pickle
 import wordcloud
 from getcomments import get_comments, login
-from getSentiment import trainModel, getSent
-from topicExtraction import model_processing, multi_process
+from getSentiment import getVE, getSent
+from topicExtraction import model_processing, multi_process, topicTok
 import matplotlib.pyplot as plt
 import matplotlib.figure
 import matplotlib.patches
 from PIL import Image, ImageTk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import time
-
+from sklearn.externals import joblib
 lock = False
 
 def make_autopct(values):
@@ -52,34 +53,60 @@ def showPiechart(pos,neg):
     return
 
 #creates a wordcloud - worker thread
-def makeWordCloud(arg1):
+def makeWordCloud(arg1, tab, imgTk, labelTk):
     global lock
     while lock:
         time.sleep(1)
     lock = True
-    for child in app.wcTab.winfo_children():
+    for child in tab.winfo_children():
         child.destroy()
     print("creating wordcloud...")
     text = ""
     #    comments = getHotTopic(arg1)
-    for comment in arg1:
-        if "replied sticker" in comment["text"]:
-            continue
-        else:
-            text += comment ["text"] +". "
-    text = "Happy Birthday PRRD!  DA COMMISSIONS SIGNAL 5 TYPHOON-RESISTANT DOME  By Manny Piñol  Iguig, Cagayan - The days when government spends hundreds of millions of pesos to repair buildings and warehouses after the devastation by typhoons will soon be over.  The Department of Agriculture (DA) yesterday inaugurated and commissioned the first monolithic dome which will serve as a grains warehouse in the DA Experimental Station in Iguig town Cagayan Province.  Designed by German engineers, the first monolithic dome constructed by a Filipino company with Polish engineers as consultants could withstand Typhoon Signal 5 many of which previously devastated many DA buildings and warehouses in the Cagayan Valley Region.  I flew to Cagayan Province  yesterday shortly after arriving from a 4-day marketing promotions trip to Belarus and Russia over the weekend to commission the first-ever monolithic dome constructed by the DA.  Costing P10-M and constructed in record time, the monolithic dome is impressive indeed.  While the temperature outside when I arrived at 3:30 p.m. was a scorching 36C degrees, it was only 21C  inside the Monolithic Dome.  The Polish engineers told me that the dome has insulators which deflects the heat of the sun and keeps the interior temperature at levels ideal for grains storage.  DA Cagayan Valley Director Narciso Edillo said the Iguig Monolithic Dome is the first of 8 units to be established in the region which is hit by as much as 12 typhoons every year.   Seven other smaller units costing P5-M each are now being constructed for farmers' groups in Cagayan Valley Region.  When the Monolithic Domes are tested and proven to withstand the destructive power of typhoons, similar structures will be built in other areas located on the path of typhoons.  These areas include Eastern and Western Visayas, Bicol, Southern Tagalog including Mindoro, Central Luzon, Ilocos and Cordillera Regions.  Yesterday during the commissioning, I said it was our fitting birthday gift to President Rody Duterte to support his goal of making life better for the people.  This innovation, along with the National Color-Coded Agriculture Guide Map, the Solar-Powered Irrigation and many more, will make Philippine Agriculture Climate Change Resilient.  #NeverStopDreaming! #NeverStopBelieving! #KungGustoMaramingParaan! #BukasMayUmagangDarating!  (Photos by Mayette Tudlas)"
-    
+    for i in range (0, len(arg1)):
+        text += arg1[i]["text"]
+        text += ". "
+    text = topicTok(text)
+    text = '. '.join(text)
     wc = wordcloud.WordCloud(background_color="white",stopwords=set(wordcloud.STOPWORDS)).generate(text)
     plt.imshow(wc, interpolation='bilinear')
     plt.axis("off")
     plt.savefig("wc.png")
     plt.clf()
-    lock = False
         
-    app.wcImg = ImageTk.PhotoImage(Image.open("wc.png"))
-    app.wcLabel = Label(app.wcTab, image=app.wcImg)
-    app.wcLabel.pack(fill=BOTH, expand=1)
+    imgTk = ImageTk.PhotoImage(Image.open("wc.png"))
+    labelTk = Label(tab, image=imgTk)
+    labelTk.pack(fill=BOTH, expand=1)
     print("finishedcreating wordCloud")
+    lock = False
+    return
+
+def makeWordCloudTop(arg1):
+    global lock, app
+    while lock:
+        time.sleep(1)
+    lock = True
+    for child in app.wcTabTop.winfo_children():
+        child.destroy()
+    print("creating wordcloud...")
+    text = ""
+    #    comments = getHotTopic(arg1)
+    for i in range (0, len(arg1)):
+        text += arg1[i]["text"]
+        text += ". "
+    text = topicTok(text)
+    text = '. '.join(text)
+    wcTop = wordcloud.WordCloud(background_color="white",stopwords=set(wordcloud.STOPWORDS)).generate(text)
+    plt.imshow(wcTop, interpolation='bilinear')
+    plt.axis("off")
+    plt.savefig("wcTop.png")
+    plt.clf()
+        
+    app.wcImgTop = ImageTk.PhotoImage(Image.open("wcTop.png"))
+    app.wcLabelTop = Label(app.wcTabTop, image=app.wcImgTop)
+    app.wcLabelTop.pack(fill=BOTH, expand=1)
+    print("finishedcreating wordCloud")
+    lock = False
     return
 
 #gets the topic using LDA of the comment that 
@@ -106,13 +133,13 @@ def getHotTopic(comments):
     discussionList = []
     for comment in comments:
         if comment["id"] == largestID:
-            discussionList.append(comment["text"])
+            discussionList.append(comment)
         if comment["parent_comment_id"] == largestID:
-            discussionList.append(comment["text"])
+            discussionList.append(comment)
     # done getting whole discussion
     # call topic extraction
-    topics = multi_process(discussionList)
-    return topics
+    #topics = multi_process(discussionList)
+    return discussionList
 
 
 def topLevelCommentTopics(comments):
@@ -121,13 +148,13 @@ def topLevelCommentTopics(comments):
     discussionList = []
     for comment in comments:
         if comment["parent_comment_id"] == 0:
-            discussionList.append(comment["text"])
+            discussionList.append(comment)
     # done getting whole discussion
     # call topic extraction
     #for comment in discussionList:
     #    print(comment)
-    topics = multi_process(discussionList)
-    return topics
+    # topics = multi_process(discussionList)
+    return discussionList
 
 
 def cleanComments(comments):
@@ -164,18 +191,18 @@ def makeSentiTable(textSentiList):
             count += 1
         except _tkinter.TclError:
             textWidget.delete('%d.0' % (count), END)
+            textWidget.insert(END, "\n") 
             count+=1
             continue
     vsb.pack(side=RIGHT, fill=Y)
     hsb.pack(side=BOTTOM, fill=X)
     textWidget.pack( fill=BOTH, expand=1)
     textWidget.config(state=DISABLED)
-    print("asdadasdasdasdadsADSADSADADSADSADA")
     return
 
 
 def processPost():
-    global app, model, encoder, vect
+    global app, sentModel, enc, vect
 
     link = app.link.get()
 
@@ -185,8 +212,10 @@ def processPost():
     postObj, commentsL = get_comments(app.browser,link)
     commentsList = cleanComments(commentsL)
     #print(commentsList)
-    asd = [commentsList]
-    threading.Thread(target=makeWordCloud, args=(asd), daemon=True).start()
+    asd = commentsList
+    threading.Thread(target=makeWordCloud, args=([postObj], app.wcTab, app.wcImg, app.wcLabel), daemon=True).start()
+    #threading.Thread(target=makeWordCloud, args=(getHotTopic(asd), app.wcTabHot, app.wcImgHot, app.wcLabelHot), daemon=True).start()
+    #threading.Thread(target=makeWordCloud, args=(topLevelCommentTopics(asd), app.wcTabTop, app.wcImgTop, app.wcLabelTop), daemon=True).start()
     print("Finished downloading posts and comments")
     generalSenti = ""
     count = 0
@@ -196,7 +225,7 @@ def processPost():
     for comm in commentsList:
         textSenti = {"text":"", "senti": None}
         textSenti["text"] = comm["text"]
-        sent = getSent(model, encoder, vect, textSenti["text"])
+        sent = getSent(sentModel, vect, enc, textSenti["text"])
         sent = sent[0]
         textSenti["senti"] = sent
         textSentiList.append(textSenti)
@@ -237,18 +266,50 @@ def processPost():
     app.sentimentLabel["text"] = generalSenti
     
     #getHotTopic(commentsList)
-    topLevelCommentTopics(commentsList)
+    #topLevelCommentTopics(commentsList)
     threading.Thread(target=showPiechart, args=(posCount, negCount), daemon=True).start()
     threading.Thread(target=makeSentiTable, args=([textSentiList]) ,daemon=True).start()
-
-    for item in commentsList:
-        print(item)
+    #threading.Thread(target=makeWordCloud, args=(getHotTopic(asd), app.wcTabHot, app.wcImgHot, app.wcLabelHot), daemon=True).start()
+    #threading.Thread(target=makeWordCloud, args=(topLevelCommentTopics(asd), app.wcTabTop, app.wcImgTop, app.wcLabelTop), daemon=True).start()
+    makeWordCloudTop(topLevelCommentTopics(asd))
+    #for item in commentsList:
+    #    print(item)
 
     app.root.update()
 
+def tryLogin():
+    global app
+    app.loginBtn['state']=DISABLED
+
+    app.browser, app.successfulLogin = login(app.uname.get(), app.passw.get())
+    app.loginBtn['state']=NORMAL
+
+    if app.successfulLogin:
+        #proceed to next ui
+        app.loginFrame.pack_forget()
+        app.mainAppUI()
+        return
+    else:
+        app.uname.delete(0, END)
+        app.passw.delete(0, END)
+        app.errorLabel.pack()
+        return
+    return
+
+def loginThread():
+    thr = threading.Thread(target=tryLogin, daemon=True)
+    thr.start()
+
+
+def tryProcessPost():
+    global app
+    app.processBtn['state'] = DISABLED
+    processPost()
+    app.processBtn['state'] = NORMAL
+    return        
 
 def processBtnThread():
-    thr = threading.Thread(target=processPost, daemon=True)
+    thr = threading.Thread(target=tryProcessPost, daemon=True)
     thr.start()
 
 class App(threading.Thread):
@@ -280,28 +341,19 @@ class App(threading.Thread):
         self.pcLabel = None
         self.wcImg = None
         self.wcLabel = None
+        #hottopic
+        self.wcTabHot = None
+        self.wcImgHot = None
+        self.wcLabelHot = None
+        #toptopic
+        self.wcTabTop = None
+        self.wcImgTop = None
+        self.wcLabelTop = None
         self.loginUI()
         
 
     def loginUI(self):
         
-        def loginBtn():
-            print("clicked")
-            print(self.uname.get())
-            self.browser, self.successfulLogin = login(self.uname.get(), self.passw.get())
-            
-            if self.successfulLogin:
-                #proceed to next ui
-                self.loginFrame.pack_forget()
-                self.mainAppUI()
-                return
-
-            else:
-                self.uname.delete(0, END)
-                self.passw.delete(0, END)
-                self.errorLabel.pack()
-                return
-                
         self.successfulLogin = False
         topFrame = Frame(self.loginFrame)
         Label(topFrame, text='Username:').grid(row=0, column=0)
@@ -311,7 +363,7 @@ class App(threading.Thread):
         self.passw = Entry(topFrame,show="*")
         self.passw.grid(row=1, column=1)
         topFrame.pack()
-        self.loginBtn = Button(self.loginFrame, text="Login", command=loginBtn)
+        self.loginBtn = Button(self.loginFrame, text="Login", command=loginThread)
         self.loginBtn.pack(pady=5)
         self.errorLabel = Label(self.loginFrame, text="Login Failed", fg="red", pady=10)
         self.loginFrame.pack(pady=5)
@@ -339,7 +391,7 @@ class App(threading.Thread):
         self.idLabel.grid( row=1, column=0, padx=5)
         self.authorLabel = Label(gridInFrame, text="-")
         self.authorLabel.grid( row=1, column=1, padx=5)
-        self.dateLabel = Label(gridInFrame, text="dolor")
+        self.dateLabel = Label(gridInFrame, text="-")
         self.dateLabel.grid( row=1, column=2, padx=5)
         self.commentLabel = Label(gridInFrame, text="-")
         self.commentLabel.grid( row=1, column=3, padx=5)
@@ -359,18 +411,35 @@ class App(threading.Thread):
         self.pieTab = ttk.Frame(self.nb)
         self.pieTab.pack(fill=BOTH, expand=1)
         self.nb.add(self.mainFrame, text="Retrieve Post")
-        self.nb.add(self.pieTab, text="Sentiment Pie chart")
-        self.wcTab = ttk.Frame(self.nb)
-        self.wcTab.pack(fill=BOTH, expand=1)
-        self.nb.add(self.wcTab, text="Post topic wordcloud")
         self.sentTab = ttk.Frame(self.nb)
         self.sentTab.pack(fill=BOTH, expand=1)
         self.nb.add(self.sentTab, text="Sentiment Table")
         self.nb.pack(fill=BOTH, expand=1)
+        self.nb.add(self.pieTab, text="Sentiment Pie chart")
+        self.wcTab = ttk.Frame(self.nb)
+        self.wcTab.pack(fill=BOTH, expand=1)
+        self.nb.add(self.wcTab, text="Post topic wordcloud")
+        #hot topic
+        '''
+        self.wcTabHot = ttk.Frame(self.nb)
+        self.wcTabHot.pack(fill=BOTH, expand=1)
+        self.nb.add(self.wcTabHot, text="Hot topic wordcloud")
+        '''
+        #toplevel topic
+        self.wcTabTop = ttk.Frame(self.nb)
+        self.wcTabTop.pack(fill=BOTH, expand=1)
+        self.nb.add(self.wcTabTop, text="Comment topic wordcloud")
         
 
+sentModel = joblib.load('sentiModel.pkl')
+vect = pickle.load(open("vector.pkl", "rb"))
+enc = pickle.load(open("encoder.pkl", "rb"))
+#vect, enc = getVE()
 ROOT = Tk()
 ROOT.title("sp")
+default_font = font.nametofont("TkDefaultFont")
+default_font.configure(family="Futura Lt BT")
+default_font.configure(size=12)
+ROOT.option_add("*Font", "TkDefaultFont")
 app = App(ROOT)
-model, encoder, vect = trainModel()
 ROOT.mainloop()

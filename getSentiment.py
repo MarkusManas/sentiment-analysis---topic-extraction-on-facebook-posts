@@ -2,6 +2,7 @@ import os
 import csv
 import random
 import sklearn
+import pickle
 from topicExtraction import tokenize
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
@@ -9,6 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
 from sklearn.preprocessing import LabelEncoder
+from sklearn.externals import joblib
 
 
 def splitTextBySentiment():
@@ -45,9 +47,8 @@ def splitTextBySentiment():
 # negSet = []
 # corpus = []
 
+#code that trains the model and saves it in a file
 def trainModel():
-    z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
-
     data = []
     dataLabels = []
 
@@ -81,22 +82,51 @@ def trainModel():
     predictFile = open("predictions.txt", "w", encoding="utf-8")
     for i in range(len(y_predicted_labels)):
         ind = xnd.tolist().index(X_test[i].tolist())
-            
         predictFile.write(str(y_predicted_labels[i]) + " - " + str(data[ind].strip()) + "\n")
     print(accuracy_score(y_test, y_pred))
     predictFile.close()
-
-    return mnb,encoder,vectorizer
-
+    
+    joblib.dump(mnb, "sentiModel.pkl")
+    pickle.dump(vectorizer, open("vector.pkl", "wb"))
+    pickle.dump(encoder, open("encoder.pkl", "wb"))
+    return
 # print(posSet)
+def getVE():
+    data = []
+    dataLabels = []
 
-def getSent(model, encoder, vect, text):
-    x = vect.transform([text])
+    positive = open("positive.txt", "r", encoding="utf-8")
+    negative = open("negative.txt", "r", encoding="utf-8")
+    neutral = open("neutral.txt", "r", encoding="utf-8")
+    for line in positive:
+        data.append(line.rstrip())
+        dataLabels.append('pos')
+    for line in negative:
+        data.append(line.rstrip())
+        dataLabels.append('neg')
+#    for line in neutral:
+#        data.append(line.rstrip())
+#        dataLabels.append('neu')
+
+    vectorizer = CountVectorizer(analyzer='word',tokenizer=tokenize, lowercase=False)
+    encoder = LabelEncoder()
+    x = vectorizer.fit_transform(data)
+    xnd = x.toarray()
+    y = encoder.fit_transform(dataLabels)
+    return vectorizer, encoder
+
+def getSent(model,vectorizer, encoder, text):
+    x = vectorizer.transform([text])
     y = model.predict(x)
     senti = encoder.inverse_transform(y)
-
+    print(str(senti))
     return senti
+'''
+v, e = getVE()
+'''
+model = joblib.load('sentiModel.pkl')
 
-x, enc, vect = trainModel()
-# z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
-# getSent(x, enc, vect,z)
+vect = pickle.load(open("vector.pkl", "rb"))
+enc = pickle.load(open("encoder.pkl", "rb"))
+z = "Hello po sir manny, majority of netizen want to know if your department is doing something to seriously eliminate the midlemen in the agricultural sector para naman yung farmer ay tunay na giginhawa. Dito kasi sa Canada malalaki ang bahay ng mga farmer,it’s very evident na may bunga talaga ang kanilang hardwork.Hindi gaya dyan na ang mnga farmers natin ay nagdidildil ng asin. As far as i know yung middlemen ay laway lang ang effort tapos mas malaki ang kita kisa sa farmer. 😔."
+getSent(model, vect, enc, z)

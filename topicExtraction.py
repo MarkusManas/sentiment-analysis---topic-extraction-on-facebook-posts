@@ -4,15 +4,45 @@ import re
 from multiprocessing import Process, freeze_support
 from gensim.test.utils import common_corpus, common_dictionary
 
+tagalogStopwords = [
+    "dito", "bawal", "lang", "diyan", "hindi", "yang", "naman", "paano", "paanu", "para", "bakit",
+    "niyo", "niya", "nila", "mong", "tayo", "sila", "kayo", "kami", "kapa", "paki"
+]
 #tokenize function
-def tokenize(msg):
+def topicTok(msg):
+    global tagalogStopwords
+    msg= msg.lower()
+
     tokens = []
     for token in gensim.utils.simple_preprocess(msg) :
         if token not in gensim.parsing.preprocessing.STOPWORDS and len(token) > 3:
             tokens.append(token)
+    toBeDeleted = []
     for token in tokens:
         if len(token) <= 3:
-            tokens.remove(token)
+            toBeDeleted.append(token)
+    for dels in toBeDeleted:
+        tokens.remove(dels)
+    toBeDeleted = []
+    for token in tokens:
+        if token in tagalogStopwords:
+            toBeDeleted.append(token)
+    for dels in toBeDeleted:
+        tokens.remove(dels)
+    return tokens
+
+def tokenize(msg):
+    msg= msg.lower()
+    tokens = []
+    for token in gensim.utils.simple_preprocess(msg) :
+        if token not in gensim.parsing.preprocessing.STOPWORDS and len(token) > 3:
+            tokens.append(token)
+    toBeDeleted = []
+    for token in tokens:
+        if len(token) <= 3:
+            toBeDeleted.append(token)
+    for dels in toBeDeleted:
+        tokens.remove(dels)
     return tokens
 
 #preprocessing
@@ -32,22 +62,22 @@ def multi_process(docs):
     dictionary = gensim.corpora.Dictionary(tokens)
     bow = [dictionary.doc2bow(doc) for doc in tokens]
     lda_model =  gensim.models.ldamodel.LdaModel(bow, num_topics = 3, id2word = dictionary, passes = 4, random_state=1)
-    
+    '''
     for idx, topic in lda_model.print_topics(-1):
         print("Topic: {} \nWords: {}".format(idx, topic ))
         print("\n")   
-
+    '''
     return lda_model
 def model_processing(text):
     freeze_support()
     
     bow,dictionary = preprocess(text)
     lda_model =  gensim.models.ldamodel.LdaModel(bow, num_topics = 3, id2word = dictionary, passes = 4, random_state=1)
-    
+    '''
     for idx, topic in lda_model.print_topics(-1):
         print("Topic: {} \nWords: {}".format(idx, topic ))
         print("\n")         
-   
+   '''
     return lda_model
 
 if __name__ == '__main__':
