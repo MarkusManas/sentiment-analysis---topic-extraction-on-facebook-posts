@@ -108,6 +108,33 @@ def makeWordCloudTop(arg1):
     print("finishedcreating wordCloud")
     lock = False
     return
+def makeWordCloudHot(arg1):
+    global lock, app
+    while lock:
+        time.sleep(1)
+    lock = True
+    for child in app.wcTabHot.winfo_children():
+        child.destroy()
+    print("creating wordcloud...")
+    text = ""
+    #    comments = getHotTopic(arg1)
+    for i in range (0, len(arg1)):
+        text += arg1[i]["text"]
+        text += ". "
+    text = topicTok(text)
+    text = '. '.join(text)
+    wcHot = wordcloud.WordCloud(background_color="white",stopwords=set(wordcloud.STOPWORDS)).generate(text)
+    plt.imshow(wcHot, interpolation='bilinear')
+    plt.axis("off")
+    plt.savefig("wcHot.png")
+    plt.clf()
+        
+    app.wcImgHot = ImageTk.PhotoImage(Image.open("wcHot.png"))
+    app.wcLabelHot = Label(app.wcTabHot, image=app.wcImgHot)
+    app.wcLabelHot.pack(fill=BOTH, expand=1)
+    print("finishedcreating wordCloud")
+    lock = False
+    return
 
 #gets the topic using LDA of the comment that 
 #generated the most discussion
@@ -190,8 +217,8 @@ def makeSentiTable(textSentiList):
             textWidget.insert(END, "\n")  
             count += 1
         except _tkinter.TclError:
-            textWidget.delete('%d.0' % (count), END)
-            textWidget.insert(END, "\n") 
+            #            textWidget.delete('%d.0' % (count-1), END)
+            textWidget.insert(END, "contained smiley - refer to test.txt\n") 
             count+=1
             continue
     vsb.pack(side=RIGHT, fill=Y)
@@ -272,9 +299,10 @@ def processPost():
     #threading.Thread(target=makeWordCloud, args=(getHotTopic(asd), app.wcTabHot, app.wcImgHot, app.wcLabelHot), daemon=True).start()
     #threading.Thread(target=makeWordCloud, args=(topLevelCommentTopics(asd), app.wcTabTop, app.wcImgTop, app.wcLabelTop), daemon=True).start()
     makeWordCloudTop(topLevelCommentTopics(asd))
+    makeWordCloudHot(getHotTopic(asd))
     #for item in commentsList:
     #    print(item)
-
+    app.processBtn['state'] = NORMAL
     app.root.update()
 
 def tryLogin():
@@ -401,9 +429,9 @@ class App(threading.Thread):
         Label(gridInFrame, text = "Sentiment", font=('Arial', 10,'bold')).grid(row=2, column=1, padx=5)
         self.sentimentLabel = Label(gridInFrame, text = "-")
         self.sentimentLabel.grid(row=3, column=1, padx=5)
-        Label(gridInFrame, text = "Hot topic", font=('Arial', 10,'bold')).grid(row=2, column=2, padx=5)
-        self.hotTopicLabel = Label(gridInFrame, text = "-")
-        self.hotTopicLabel.grid(row=3, column=2, padx=5)
+        #Label(gridInFrame, text = "Hot topic", font=('Arial', 10,'bold')).grid(row=2, column=2, padx=5)
+        #self.hotTopicLabel = Label(gridInFrame, text = "-")
+        #self.hotTopicLabel.grid(row=3, column=2, padx=5)
 
         gridInFrame.pack(padx=5, pady=5)
         botFrame.pack(pady=10,fill=BOTH, expand=1)
@@ -420,11 +448,11 @@ class App(threading.Thread):
         self.wcTab.pack(fill=BOTH, expand=1)
         self.nb.add(self.wcTab, text="Post topic wordcloud")
         #hot topic
-        '''
+        
         self.wcTabHot = ttk.Frame(self.nb)
         self.wcTabHot.pack(fill=BOTH, expand=1)
         self.nb.add(self.wcTabHot, text="Hot topic wordcloud")
-        '''
+        
         #toplevel topic
         self.wcTabTop = ttk.Frame(self.nb)
         self.wcTabTop.pack(fill=BOTH, expand=1)
